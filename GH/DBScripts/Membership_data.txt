@@ -1,0 +1,65 @@
+﻿USE [GH]
+GO
+SET IDENTITY_INSERT [dbo].[aspnet_Users] OFF
+GO
+INSERT [dbo].[aspnet_Applications] ([ApplicationName], [LoweredApplicationName], [ApplicationId], [Description]) VALUES (N'/', N'/', N'50421a42-1195-4761-913f-0748c997806b', NULL)
+GO
+INSERT [dbo].[aspnet_Users] ([ApplicationId], [UserId], [UserName], [LoweredUserName], [MobileAlias], [IsAnonymous], [LastActivityDate]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'37524844-569d-4c12-bf75-7ecd1c25d10b', N'Administrador', N'administrador', NULL, 0, CAST(N'2018-09-01 03:31:25.997' AS DateTime))
+GO
+INSERT [dbo].[aspnet_Users] ([ApplicationId], [UserId], [UserName], [LoweredUserName], [MobileAlias], [IsAnonymous], [LastActivityDate]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'a2cbe246-9c8e-4b0e-bf1e-a2844a71f974', N'Aprobador', N'aprobador', NULL, 0, CAST(N'2018-11-12 18:42:15.000' AS DateTime))
+GO
+INSERT [dbo].[aspnet_Users] ([ApplicationId], [UserId], [UserName], [LoweredUserName], [MobileAlias], [IsAnonymous], [LastActivityDate]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'ec5cdb2b-c90f-4251-94a2-ab2a2e43072f', N'Boronozza', N'boronozza', NULL, 0, CAST(N'2018-11-06 14:04:34.443' AS DateTime))
+GO
+INSERT [dbo].[aspnet_Users] ([ApplicationId], [UserId], [UserName], [LoweredUserName], [MobileAlias], [IsAnonymous], [LastActivityDate]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'Cecilis', N'cecilis', NULL, 0, CAST(N'2018-11-19 23:04:02.267' AS DateTime))
+GO
+INSERT [dbo].[aspnet_Users] ([ApplicationId], [UserId], [UserName], [LoweredUserName], [MobileAlias], [IsAnonymous], [LastActivityDate]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'1196a3ca-8094-4a21-bad9-332beeffa1e9', N'Evaluador1', N'evaluador1', NULL, 0, CAST(N'2018-11-12 17:55:14.770' AS DateTime))
+GO
+INSERT [dbo].[aspnet_Membership] ([ApplicationId], [UserId], [Password], [PasswordFormat], [PasswordSalt], [MobilePIN], [Email], [LoweredEmail], [PasswordQuestion], [PasswordAnswer], [IsApproved], [IsLockedOut], [CreateDate], [LastLoginDate], [LastPasswordChangedDate], [LastLockoutDate], [FailedPasswordAttemptCount], [FailedPasswordAttemptWindowStart], [FailedPasswordAnswerAttemptCount], [FailedPasswordAnswerAttemptWindowStart], [Comment]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'ec5cdb2b-c90f-4251-94a2-ab2a2e43072f', N'xanXAyw5cZ1ySp7aw2N9qvXRAzY=', 1, N'BSlsQ2LuC3/osWgS1X8GFQ==', NULL, N'ligiapuertas@gmail.com', N'ligiapuertas@gmail.com', N'NA', N'9U4y5YSt3XQ7NGpTOdt4nf3OFsI=', 1, 1, CAST(N'2018-11-06 13:26:30.000' AS DateTime), CAST(N'2018-11-06 14:04:34.443' AS DateTime), CAST(N'2018-11-06 13:26:30.000' AS DateTime), CAST(N'2018-11-06 14:10:28.597' AS DateTime), 5, CAST(N'2018-11-06 14:10:28.597' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), NULL)
+GO
+INSERT [dbo].[aspnet_Membership] ([ApplicationId], [UserId], [Password], [PasswordFormat], [PasswordSalt], [MobilePIN], [Email], [LoweredEmail], [PasswordQuestion], [PasswordAnswer], [IsApproved], [IsLockedOut], [CreateDate], [LastLoginDate], [LastPasswordChangedDate], [LastLockoutDate], [FailedPasswordAttemptCount], [FailedPasswordAttemptWindowStart], [FailedPasswordAnswerAttemptCount], [FailedPasswordAnswerAttemptWindowStart], [Comment]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'lrgLYaawfT6xAipn2w2QwsGnWPc=', 1, N'inH2F3hmltkfWgmn03i6rw==', NULL, N'ligiapuertas@gmail.com', N'ligiapuertas@gmail.com', N'mascota', N'2L0NqwAvmq/zN8P4s+5uve/3WEk=', 1, 0, CAST(N'2018-09-01 03:31:05.000' AS DateTime), CAST(N'2018-11-19 23:04:02.267' AS DateTime), CAST(N'2018-09-01 03:31:05.000' AS DateTime), CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), NULL)
+GO
+INSERT [dbo].[aspnet_Membership] ([ApplicationId], [UserId], [Password], [PasswordFormat], [PasswordSalt], [MobilePIN], [Email], [LoweredEmail], [PasswordQuestion], [PasswordAnswer], [IsApproved], [IsLockedOut], [CreateDate], [LastLoginDate], [LastPasswordChangedDate], [LastLockoutDate], [FailedPasswordAttemptCount], [FailedPasswordAttemptWindowStart], [FailedPasswordAnswerAttemptCount], [FailedPasswordAnswerAttemptWindowStart], [Comment]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'1196a3ca-8094-4a21-bad9-332beeffa1e9', N'ZJ09tNOdafWpCeViiH7PctyohjM=', 1, N'3OSKb0YJ7fpIWKk0kHbq/Q==', NULL, N'ligiapuertas@gmail.com', N'ligiapuertas@gmail.com', N'NA', N'OJitTWpvLkIUlnpkrYfxueMsf+g=', 1, 0, CAST(N'2018-11-12 17:54:42.000' AS DateTime), CAST(N'2018-11-12 17:55:14.770' AS DateTime), CAST(N'2018-11-12 17:54:42.000' AS DateTime), CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), NULL)
+GO
+INSERT [dbo].[aspnet_Membership] ([ApplicationId], [UserId], [Password], [PasswordFormat], [PasswordSalt], [MobilePIN], [Email], [LoweredEmail], [PasswordQuestion], [PasswordAnswer], [IsApproved], [IsLockedOut], [CreateDate], [LastLoginDate], [LastPasswordChangedDate], [LastLockoutDate], [FailedPasswordAttemptCount], [FailedPasswordAttemptWindowStart], [FailedPasswordAnswerAttemptCount], [FailedPasswordAnswerAttemptWindowStart], [Comment]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'37524844-569d-4c12-bf75-7ecd1c25d10b', N'TFKxGeJHCkGZ7HVGYzGmy/EyYgA=', 1, N'LlwU/It2akXh/mVoPEIKEA==', NULL, N'ligiapuertas@gmail.com', N'ligiapuertas@gmail.com', N'mascota', N'aNtViaCc4pAB9yIhN0B21YUiGi8=', 1, 0, CAST(N'2018-09-01 03:31:25.000' AS DateTime), CAST(N'2018-09-01 03:31:25.997' AS DateTime), CAST(N'2018-09-01 03:31:25.000' AS DateTime), CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), N'nota sobre el usuario')
+GO
+INSERT [dbo].[aspnet_Membership] ([ApplicationId], [UserId], [Password], [PasswordFormat], [PasswordSalt], [MobilePIN], [Email], [LoweredEmail], [PasswordQuestion], [PasswordAnswer], [IsApproved], [IsLockedOut], [CreateDate], [LastLoginDate], [LastPasswordChangedDate], [LastLockoutDate], [FailedPasswordAttemptCount], [FailedPasswordAttemptWindowStart], [FailedPasswordAnswerAttemptCount], [FailedPasswordAnswerAttemptWindowStart], [Comment]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'a2cbe246-9c8e-4b0e-bf1e-a2844a71f974', N'BvQJxjcaxkuTnm48QQQKZF+yZ8Q=', 1, N'/kI9VrydG57iJ2GN6Q9BJg==', NULL, N'ligiapuertas@gmail.com', N'ligiapuertas@gmail.com', N'NA', N'u8geB60NPv7zHASpH+K3QZxZqwo=', 1, 0, CAST(N'2018-11-12 18:42:15.000' AS DateTime), CAST(N'2018-11-12 18:42:15.000' AS DateTime), CAST(N'2018-11-12 18:42:15.000' AS DateTime), CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), 0, CAST(N'1754-01-01 00:00:00.000' AS DateTime), NULL)
+GO
+INSERT [dbo].[aspnet_Roles] ([ApplicationId], [RoleId], [RoleName], [LoweredRoleName], [Description]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'e787afd1-d0ed-42b4-803a-f9628ff86bc4', N'Administrador', N'administrador', NULL)
+GO
+INSERT [dbo].[aspnet_Roles] ([ApplicationId], [RoleId], [RoleName], [LoweredRoleName], [Description]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'7f68ab51-6a3b-4d2c-8028-955fe53115ee', N'Aprobador', N'aprobador', NULL)
+GO
+INSERT [dbo].[aspnet_Roles] ([ApplicationId], [RoleId], [RoleName], [LoweredRoleName], [Description]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'4a63a8b3-07fc-46c1-9578-f645b801dfda', N'Cotizador', N'cotizador', NULL)
+GO
+INSERT [dbo].[aspnet_Roles] ([ApplicationId], [RoleId], [RoleName], [LoweredRoleName], [Description]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'2273b439-ef30-4141-983d-a90ee79c1668', N'Evaluador', N'evaluador', NULL)
+GO
+INSERT [dbo].[aspnet_Roles] ([ApplicationId], [RoleId], [RoleName], [LoweredRoleName], [Description]) VALUES (N'50421a42-1195-4761-913f-0748c997806b', N'2b13153b-d51e-4616-b953-c84e459b01b1', N'Presupuestador', N'presupuestador', NULL)
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'a2cbe246-9c8e-4b0e-bf1e-a2844a71f974', N'7f68ab51-6a3b-4d2c-8028-955fe53115ee')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'7f68ab51-6a3b-4d2c-8028-955fe53115ee')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'1196a3ca-8094-4a21-bad9-332beeffa1e9', N'2273b439-ef30-4141-983d-a90ee79c1668')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'2273b439-ef30-4141-983d-a90ee79c1668')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'4a63a8b3-07fc-46c1-9578-f645b801dfda')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'37524844-569d-4c12-bf75-7ecd1c25d10b', N'e787afd1-d0ed-42b4-803a-f9628ff86bc4')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'ec5cdb2b-c90f-4251-94a2-ab2a2e43072f', N'e787afd1-d0ed-42b4-803a-f9628ff86bc4')
+GO
+INSERT [dbo].[aspnet_UsersInRoles] ([UserId], [RoleId]) VALUES (N'2c28f7d7-0ca0-4f89-8da7-d4f18306d0ae', N'e787afd1-d0ed-42b4-803a-f9628ff86bc4')
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'common', N'1', 1)
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'health monitoring', N'1', 1)
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'membership', N'1', 1)
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'personalization', N'1', 1)
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'profile', N'1', 1)
+GO
+INSERT [dbo].[aspnet_SchemaVersions] ([Feature], [CompatibleSchemaVersion], [IsCurrentVersion]) VALUES (N'role manager', N'1', 1)
+GO
+SET IDENTITY_INSERT [dbo].[aspnet_Users] ON

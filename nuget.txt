@@ -1,0 +1,64 @@
+Install-Package EntityFramework -Version 5.0.0
+Install-Package Microsoft.AspNet.WebPages.OAuth -Version 3.2.6
+Install-Package System.Web.Providers    --> este no este es para universal provider
+
+
+Install-Package Microsoft.AspNet.Web.Optimization
+
+
+
+
+
+Update-Package -reinstall
+
+
+Note: This package will install all the required dependencies automatically for you. This is a detailed list of all nuget packages installed:
+
+Microsoft.AspNet.WebPages.WebData
+
+Microsoft.AspNet.WebPages.Data
+DotNetOpenAuth.AspNet
+
+DotNetOpenAuth.OpenId.RelyingParty
+
+DotNetOpenAuth.OpenId.Core
+
+DotNetOpenAuth.Core
+
+CodeContracts.Unofficial
+DotNetOpenAuth.OAuth.Consumer
+
+DotNetOpenAuth.OAuth.Core
+
+DotNetOpenAuth.Core
+
+CodeContracts.Unofficial
+Add a reference to
+
+System.Transactions
+
+
+---------------------- tokens jwt ----------------------------
+Install-Package Microsoft.Owin.Host.SystemWeb -Version 4.0.0
+Install-Package Microsoft.IdentityModel.Protocols.OpenIdConnect -Version 5.2.1
+Install-Package Microsoft.IdentityModel.Tokens -Version 5.2.1
+Install-Package Microsoft.Owin.Security.Jwt -Version 4.0.0
+Install-Package EntityFramework -Version 6.2.0
+Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.2.6
+Install-Package Microsoft.AspNet.Identity.Owin -Version 2.2.1
+
+
+-------------------- web api ----------------------------
+
+Install-Package Microsoft.AspNet.WebApi.Core
+Install-Package Microsoft.AspNet.WebApi.WebHost
+
+
+---------------------  typescript
+
+Microsoft.TypeScript.MSBuild
+Microsoft.TypeScript.Compiler
+
+----------------------- CORS
+Install-Package Microsoft.AspNet.WebApi.Cors
+Install-Package Microsoft.Owin.Cors

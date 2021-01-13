@@ -1,0 +1,53 @@
+﻿USE [GH]
+GO
+SET IDENTITY_INSERT [dbo].[Provincias] ON 
+
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (1, N'Buenos Aires', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (2, N'Catamarca', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (3, N'Chaco', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (4, N'Chubut', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (5, N'Córdoba', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (6, N'Corrientes', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (7, N'Entre Ríos', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (8, N'Formosa', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (9, N'Jujuy', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (10, N'La Pampa', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (11, N'La Rioja', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (12, N'Mendoza', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (13, N'Misiones', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (14, N'Neuquén', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (15, N'Río Negro', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (16, N'Salta', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (17, N'San Juan', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (18, N'San Luis', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (19, N'Santa Cruz', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (20, N'Santa Fe', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (21, N'Santiago del Estero', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (22, N'Tierra del Fuego', 1)
+GO
+INSERT [dbo].[Provincias] ([id_provincia], [provincia], [activo]) VALUES (23, N'Tucumán', 1)
+GO
+SET IDENTITY_INSERT [dbo].[Provincias] OFF
+GO

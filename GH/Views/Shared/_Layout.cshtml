@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="~/favicon.ico">
+
+    <title>:. Grupo Horizonte - @ViewBag.Title</title>
+    <!-- Bootstrap core CSS -->
+    @Styles.Render("~/Content/Styles")
+    @Styles.Render("~/Content/dashboard")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+
+    <div class="d-flex flex-row w-100 justify-content-center align-items-center mb-1" style="height: 7.5vh">
+        <nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 align-self-start w-100 border-dark shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 mr-0 shadow" @*href="@Url.Action("Index", "Home")"*@ routerLink="/home">
+                <img src="~/Images/GH_Logo.png" class="navbar-brand col-12 mr-0" style="width:auto; height:50px; padding:0; margin:0;" />
+            </a>
+            <div class="w-100"></div>
+            <button class="navbar-toggler float-right d-md-none d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon hidden-md hidden-lg"></span>
+            </button>
+            @Html.Partial("_LoginPartial")
+        </nav>
+    </div>
+    @RenderSection("featured", required: false)
+    @RenderBody()
+
+    <!-- Bootstrap core JavaScript
+    ================================================== 
+    -->
+    @Scripts.Render("~/Script/Bundles")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

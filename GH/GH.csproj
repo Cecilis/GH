@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{623119F2-5794-45ED-90DE-184650A10B7D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GH</RootNamespace>
+    <AssemblyName>GH</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <!-- Makes the TypeScript compilation task a no-op -->
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>3.7</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.3.4.13329\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.8.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.8.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.8.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.8.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.8.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.8.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.2\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation, Version=1.0.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.4\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Edm.5.6.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.OData.5.6.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.4.0.0\lib\net451\Microsoft.Owin.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.0\lib\net451\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.0\lib\net451\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.0\lib\net451\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.3.2.6\lib\net45\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Spatial, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Spatial.5.6.0\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.6\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.6\lib\net45\System.Web.Http.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=5.3.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.5.3.1\lib\net45\System.Web.Http.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.6\lib\net45\System.Web.Http.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.6\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.6\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.3.2.6\lib\net45\WebMatrix.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.3.2.6\lib\net45\WebMatrix.WebData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\images\cargando.gif" />
+    <Content Include="assets\images\gh-logo-large.png" />
+    <Content Include="assets\images\gh-logo-lg.png" />
+    <Content Include="assets\images\gh-logo-lg2.png" />
+    <Content Include="assets\images\gh-logo.png" />
+    <Content Include="assets\images\loader.gif" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\slider1.jpg" />
+    <Content Include="assets\images\slider2.jpg" />
+    <Content Include="assets\images\slider3.jpg" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\dashboard.css" />
+    <Content Include="Content\sign-in.css" />
+    <Content Include="Content\sticky-footer-navbar.css" />
+    <Content Include="DBScripts\dropconstraign.txt" />
+    <Content Include="DBScripts\gh_full_script.sql" />
+    <Content Include="DBScripts\Localidades.txt" />
+    <Content Include="DBScripts\Membership.txt" />
+    <Content Include="DBScripts\Membership_data.txt" />
+    <Content Include="DBScripts\Provincias.txt" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\cargando.gif" />
+    <Content Include="Images\GH_Logo - copia.jpg" />
+    <Content Include="Images\GH_Logo.jpg" />
+    <Content Include="Images\GH_Logo.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="ngGHApp\.gitignore" />
+    <Content Include="ngGHApp\comandos.txt" />
+    <Content Include="ngGHApp\src\app\account\login\login.component.css" />
+    <Content Include="ngGHApp\src\app\account\login\login.component.html" />
+    <Content Include="ngGHApp\src\app\account\roles\roles.component.css" />
+    <Content Include="ngGHApp\src\app\account\roles\roles.component.html" />
+    <Content Include="ngGHApp\src\app\account\roles\role\role-add.component.css" />
+    <Content Include="ngGHApp\src\app\account\roles\role\role-add.component.html" />
+    <Content Include="ngGHApp\src\app\account\users\users.component.css" />
+    <Content Include="ngGHApp\src\app\account\users\users.component.html" />
+    <Content Include="ngGHApp\src\app\account\users\user\change-password.component.css" />
+    <Content Include="ngGHApp\src\app\account\users\user\change-password.component.html" />
+    <Content Include="ngGHApp\src\app\account\users\user\show-info.component.css" />
+    <Content Include="ngGHApp\src\app\account\users\user\show-info.component.html" />
+    <Content Include="ngGHApp\src\app\account\users\user\user-add.component.css" />
+    <Content Include="ngGHApp\src\app\account\users\user\user-add.component.html" />
+    <Content Include="ngGHApp\src\app\account\users\user\user-details.component.css" />
+    <Content Include="ngGHApp\src\app\account\users\user\user-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\clientes\clientes.component.css" />
+    <Content Include="ngGHApp\src\app\admin\clientes\clientes.component.html" />
+    <Content Include="ngGHApp\src\app\admin\clientes\cliente\cliente-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\clientes\cliente\cliente-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\clientes\cliente\cliente-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\clientes\cliente\cliente-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contratos.component.css" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contratos.component.html" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contrato\contrato-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contrato\contrato-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contrato\contrato-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\contratos\contrato\contrato-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobacion\aprobacion.component.accordion.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobacion\aprobacion.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobacion\aprobacion.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobacion\aprobacion.component.tabs.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluacion\evaluacion.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluacion\evaluacion.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleados.component.css" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleados.component.html" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleado\empleado-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleado\empleado-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleado\empleado-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\empleados\empleado\empleado-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\bases.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\bases.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-edit.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-edit.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-edit.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-edit.component.html" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida.component.css" />
+    <Content Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\personas.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\personas.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidades.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidades.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicios.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicios.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-details.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-add.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-add.component.html" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-details.component.css" />
+    <Content Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-details.component.html" />
+    <Content Include="ngGHApp\src\app\app.component.css" />
+    <Content Include="ngGHApp\src\app\app.component.html" />
+    <Content Include="ngGHApp\src\app\errors\access-denied\access-denied.component.css" />
+    <Content Include="ngGHApp\src\app\errors\access-denied\access-denied.component.html" />
+    <Content Include="ngGHApp\src\app\errors\not-found\not-found.component.css" />
+    <Content Include="ngGHApp\src\app\errors\not-found\not-found.component.html" />
+    <Content Include="ngGHApp\src\app\errors\server-error\server-error.component.css" />
+    <Content Include="ngGHApp\src\app\errors\server-error\server-error.component.html" />
+    <Content Include="ngGHApp\src\app\layout\components\header\header.component.css" />
+    <Content Include="ngGHApp\src\app\layout\components\header\header.component.html" />
+    <Content Include="ngGHApp\src\app\layout\components\sidebar\sidebar.component.css" />
+    <Content Include="ngGHApp\src\app\layout\components\sidebar\sidebar.component.html" />
+    <Content Include="ngGHApp\src\app\layout\home\home.component.css" />
+    <Content Include="ngGHApp\src\app\layout\home\home.component.html" />
+    <Content Include="ngGHApp\src\app\layout\layout.component.css" />
+    <Content Include="ngGHApp\src\app\layout\layout.component.html" />
+    <Content Include="ngGHApp\src\app\shared\modules\compare-date-picker-dates\compare-date-picker-dates.component.css" />
+    <Content Include="ngGHApp\src\app\shared\modules\compare-date-picker-dates\compare-date-picker-dates.component.html" />
+    <Content Include="ngGHApp\src\app\shared\modules\loading\loading.component.css" />
+    <Content Include="ngGHApp\src\app\shared\modules\loading\loading.component.html" />
+    <Content Include="ngGHApp\src\app\shared\modules\page-header\page-header.component.css" />
+    <Content Include="ngGHApp\src\app\shared\modules\page-header\page-header.component.html" />
+    <Content Include="ngGHApp\src\assets\card-types\american-express.png" />
+    <Content Include="ngGHApp\src\assets\card-types\mastercard.png" />
+    <Content Include="ngGHApp\src\assets\card-types\unknown.png" />
+    <Content Include="ngGHApp\src\assets\card-types\visa.png" />
+    <Content Include="ngGHApp\src\assets\images\cargando.gif" />
+    <Content Include="ngGHApp\src\assets\images\gh-logo-large.png" />
+    <Content Include="ngGHApp\src\assets\images\gh-logo-lg.png" />
+    <Content Include="ngGHApp\src\assets\images\gh-logo-lg2.png" />
+    <Content Include="ngGHApp\src\assets\images\gh-logo.png" />
+    <Content Include="ngGHApp\src\assets\images\loader.gif" />
+    <Content Include="ngGHApp\src\assets\images\logo.png" />
+    <Content Include="ngGHApp\src\assets\images\slider1.jpg" />
+    <Content Include="ngGHApp\src\assets\images\slider2.jpg" />
+    <Content Include="ngGHApp\src\assets\images\slider3.jpg" />
+    <Content Include="ngGHApp\src\favicon.ico" />
+    <Content Include="ngGHApp\src\index.html" />
+    <Content Include="ngGHApp\src\karma.conf.js" />
+    <Content Include="ngGHApp\src\styles\app-styles.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap.min.css" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.js" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.min.js" />
+    <Content Include="ngGHApp\src\styles\responsive.css" />
+    <Content Include="ngGHApp\src\styles\rtl.css" />
+    <Content Include="ngGHApp\src\styles\spinner.css" />
+    <Content Include="ngGHApp\src\styles\utils.css" />
+    <Content Include="scripts\ai.1.0.18-build01843.js" />
+    <Content Include="scripts\ai.1.0.18-build01843.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="scripts\bootstrap.bundle.js" />
+    <Content Include="scripts\bootstrap.bundle.min.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\esm\popper-utils.js" />
+    <Content Include="scripts\esm\popper-utils.min.js" />
+    <Content Include="scripts\esm\popper.js" />
+    <Content Include="scripts\esm\popper.min.js" />
+    <Content Include="scripts\esm\popper.min.js.map" />
+    <Content Include="scripts\esm\popper.js.map" />
+    <Content Include="scripts\esm\popper-utils.min.js.map" />
+    <Content Include="scripts\esm\popper-utils.js.map" />
+    <Content Include="scripts\bootstrap.min.js.map" />
+    <Content Include="scripts\bootstrap.js.map" />
+    <Content Include="scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="DBScripts\GH_20181124.bak" />
+    <Content Include="DBScripts\GH_20181124.rar" />
+    <Content Include="Migrations\Migrations.rar" />
+    <Content Include="ngGHApp\src\app\layout\home\home.rar" />
+    <Content Include="ngGHApp\src\assets\.gitkeep" />
+    <Content Include="ngGHApp\src\assets\i18n\de.json" />
+    <Content Include="ngGHApp\src\assets\i18n\en.json" />
+    <Content Include="ngGHApp\src\assets\i18n\es.json" />
+    <Content Include="ngGHApp\src\assets\i18n\fa.json" />
+    <Content Include="ngGHApp\src\assets\i18n\fr.json" />
+    <Content Include="ngGHApp\src\assets\i18n\it.json" />
+    <Content Include="ngGHApp\src\assets\i18n\ur.json" />
+    <Content Include="ngGHApp\src\assets\i18n\zh-CHS.json" />
+    <Content Include="ngGHApp\src\browserslist" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.js.map" />
+    <Content Include="ngGHApp\src\styles\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="ngGHApp\src\tsconfig.app.json" />
+    <Content Include="ngGHApp\src\tsconfig.spec.json" />
+    <Content Include="ngGHApp\src\tslint.json" />
+    <Content Include="ngGHApp\angular.json" />
+    <Content Include="ngGHApp\package-lock.json" />
+    <Content Include="ngGHApp\package.json" />
+    <Content Include="ngGHApp\tsconfig.json" />
+    <Content Include="ngGHApp\tslint.json" />
+    <Content Include="ngGHApp\.editorconfig" />
+    <None Include="scripts\jquery-3.3.1.intellisense.js" />
+    <None Include="scripts\jquery-3.3.1-vsdoc.js" />
+    <Content Include="scripts\ai.1.0.20-build00666.js" />
+    <Content Include="scripts\ai.1.0.20-build00666.min.js" />
+    <Content Include="scripts\jquery-3.3.1.js" />
+    <Content Include="scripts\jquery-3.3.1.min.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="scripts\modernizr-2.8.3.js" />
+    <Content Include="scripts\popper-utils.js" />
+    <Content Include="scripts\popper-utils.min.js" />
+    <Content Include="scripts\popper.js" />
+    <Content Include="scripts\popper.min.js" />
+    <Content Include="scripts\respond.js" />
+    <Content Include="scripts\respond.matchmedia.addListener.js" />
+    <Content Include="scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="scripts\respond.min.js" />
+    <Content Include="scripts\umd\popper-utils.js" />
+    <Content Include="scripts\umd\popper-utils.min.js" />
+    <Content Include="scripts\umd\popper.js" />
+    <Content Include="scripts\umd\popper.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BasesController.cs" />
+    <Compile Include="Controllers\CategoriasController.cs" />
+    <Compile Include="Controllers\GremiosController.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\ContratosController.cs" />
+    <Compile Include="Controllers\CotizacionesController.cs" />
+    <Compile Include="Controllers\DocumentacionController.cs" />
+    <Compile Include="Controllers\EmpleadosController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LocalidadController.cs" />
+    <Compile Include="Controllers\PersonasController.cs" />
+    <Compile Include="Controllers\ProvinciasController.cs" />
+    <Compile Include="Migrations\201808170608142_CargaInicial.cs" />
+    <Compile Include="Migrations\201808170608142_CargaInicial.Designer.cs">
+      <DependentUpon>201808170608142_CargaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808170654441_AjustesTablas.cs" />
+    <Compile Include="Migrations\201808170654441_AjustesTablas.Designer.cs">
+      <DependentUpon>201808170654441_AjustesTablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808202340599_ModelosBaseCotizacion.cs" />
+    <Compile Include="Migrations\201808202340599_ModelosBaseCotizacion.Designer.cs">
+      <DependentUpon>201808202340599_ModelosBaseCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808210414433_AjusteModeloEmpleadosBase.cs" />
+    <Compile Include="Migrations\201808210414433_AjusteModeloEmpleadosBase.Designer.cs">
+      <DependentUpon>201808210414433_AjusteModeloEmpleadosBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808212053582_TipoDocumentoAplicaA.cs" />
+    <Compile Include="Migrations\201808212053582_TipoDocumentoAplicaA.Designer.cs">
+      <DependentUpon>201808212053582_TipoDocumentoAplicaA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808221310443_TipoDocumentoAplicaANoUnique.cs" />
+    <Compile Include="Migrations\201808221310443_TipoDocumentoAplicaANoUnique.Designer.cs">
+      <DependentUpon>201808221310443_TipoDocumentoAplicaANoUnique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808230134097_AjustesModelosBase.cs" />
+    <Compile Include="Migrations\201808230134097_AjustesModelosBase.Designer.cs">
+      <DependentUpon>201808230134097_AjustesModelosBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808280203406_TablaDummy.cs" />
+    <Compile Include="Migrations\201808280203406_TablaDummy.Designer.cs">
+      <DependentUpon>201808280203406_TablaDummy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808290331057_TablaDummyFix.cs" />
+    <Compile Include="Migrations\201808290331057_TablaDummyFix.Designer.cs">
+      <DependentUpon>201808290331057_TablaDummyFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809101416107_Documentacion.cs" />
+    <Compile Include="Migrations\201809101416107_Documentacion.Designer.cs">
+      <DependentUpon>201809101416107_Documentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809112152567_UniqueTipoDocumentoxNombreDocumento.cs" />
+    <Compile Include="Migrations\201809112152567_UniqueTipoDocumentoxNombreDocumento.Designer.cs">
+      <DependentUpon>201809112152567_UniqueTipoDocumentoxNombreDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809140216309_FixCotizacionDetalleXServicioItems.cs" />
+    <Compile Include="Migrations\201809140216309_FixCotizacionDetalleXServicioItems.Designer.cs">
+      <DependentUpon>201809140216309_FixCotizacionDetalleXServicioItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809250538343_FixingPersonasUnidadesContratosDocumentacion.cs" />
+    <Compile Include="Migrations\201809250538343_FixingPersonasUnidadesContratosDocumentacion.Designer.cs">
+      <DependentUpon>201809250538343_FixingPersonasUnidadesContratosDocumentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809252129407_foreingkeysubipounidenunida.cs" />
+    <Compile Include="Migrations\201809252129407_foreingkeysubipounidenunida.Designer.cs">
+      <DependentUpon>201809252129407_foreingkeysubipounidenunida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809270022209_AgregadoDeCategorias.cs" />
+    <Compile Include="Migrations\201809270022209_AgregadoDeCategorias.Designer.cs">
+      <DependentUpon>201809270022209_AgregadoDeCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809270026394_deleting dummies.cs" />
+    <Compile Include="Migrations\201809270026394_deleting dummies.Designer.cs">
+      <DependentUpon>201809270026394_deleting dummies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809270110083_categorias.cs" />
+    <Compile Include="Migrations\201809270110083_categorias.Designer.cs">
+      <DependentUpon>201809270110083_categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809272126010_DeleteDummyEmpleado.cs" />
+    <Compile Include="Migrations\201809272126010_DeleteDummyEmpleado.Designer.cs">
+      <DependentUpon>201809272126010_DeleteDummyEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809272129270_BaseEmpleado.cs" />
+    <Compile Include="Migrations\201809272129270_BaseEmpleado.Designer.cs">
+      <DependentUpon>201809272129270_BaseEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809281806591_RelacionEmpleadosPersona.cs" />
+    <Compile Include="Migrations\201809281806591_RelacionEmpleadosPersona.Designer.cs">
+      <DependentUpon>201809281806591_RelacionEmpleadosPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809282155013_DeleteRelationPersonaEmpleado.cs" />
+    <Compile Include="Migrations\201809282155013_DeleteRelationPersonaEmpleado.Designer.cs">
+      <DependentUpon>201809282155013_DeleteRelationPersonaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810011747377_fixingerror.cs" />
+    <Compile Include="Migrations\201810011747377_fixingerror.Designer.cs">
+      <DependentUpon>201810011747377_fixingerror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810011801172_fixingerror2.cs" />
+    <Compile Include="Migrations\201810011801172_fixingerror2.Designer.cs">
+      <DependentUpon>201810011801172_fixingerror2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810040215132_AjusteModelo.cs" />
+    <Compile Include="Migrations\201810040215132_AjusteModelo.Designer.cs">
+      <DependentUpon>201810040215132_AjusteModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810040342110_ajusteporintegracion.cs" />
+    <Compile Include="Migrations\201810040342110_ajusteporintegracion.Designer.cs">
+      <DependentUpon>201810040342110_ajusteporintegracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810042251340_ajusteporintegracionii.cs" />
+    <Compile Include="Migrations\201810042251340_ajusteporintegracionii.Designer.cs">
+      <DependentUpon>201810042251340_ajusteporintegracionii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810051320206_fixingbase.cs" />
+    <Compile Include="Migrations\201810051320206_fixingbase.Designer.cs">
+      <DependentUpon>201810051320206_fixingbase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810051355312_fixingbaseii.cs" />
+    <Compile Include="Migrations\201810051355312_fixingbaseii.Designer.cs">
+      <DependentUpon>201810051355312_fixingbaseii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810051528368_fixingbaseii1.cs" />
+    <Compile Include="Migrations\201810051528368_fixingbaseii1.Designer.cs">
+      <DependentUpon>201810051528368_fixingbaseii1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810051533400_fixingbaseiii.cs" />
+    <Compile Include="Migrations\201810051533400_fixingbaseiii.Designer.cs">
+      <DependentUpon>201810051533400_fixingbaseiii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810060230248_fixingsubtipoidsubtipo.cs" />
+    <Compile Include="Migrations\201810060230248_fixingsubtipoidsubtipo.Designer.cs">
+      <DependentUpon>201810060230248_fixingsubtipoidsubtipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810090347485_AjusteporGremiosLegajos.cs" />
+    <Compile Include="Migrations\201810090347485_AjusteporGremiosLegajos.Designer.cs">
+      <DependentUpon>201810090347485_AjusteporGremiosLegajos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810091302542_EmpleadosGremio.cs" />
+    <Compile Include="Migrations\201810091302542_EmpleadosGremio.Designer.cs">
+      <DependentUpon>201810091302542_EmpleadosGremio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810120215489_AjustePersonasCategorias.cs" />
+    <Compile Include="Migrations\201810120215489_AjustePersonasCategorias.Designer.cs">
+      <DependentUpon>201810120215489_AjustePersonasCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810170349401_AjustesCotizacion.cs" />
+    <Compile Include="Migrations\201810170349401_AjustesCotizacion.Designer.cs">
+      <DependentUpon>201810170349401_AjustesCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810180309438_Ajustesdatedefault.cs" />
+    <Compile Include="Migrations\201810180309438_Ajustesdatedefault.Designer.cs">
+      <DependentUpon>201810180309438_Ajustesdatedefault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181716115_AjusteItemServiciosCotizacionCotiacionDetalles.cs" />
+    <Compile Include="Migrations\201810181716115_AjusteItemServiciosCotizacionCotiacionDetalles.Designer.cs">
+      <DependentUpon>201810181716115_AjusteItemServiciosCotizacionCotiacionDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810181720525_AjusteItemServiciosCotizacionCotiacionDetallesII.cs" />
+    <Compile Include="Migrations\201810181720525_AjusteItemServiciosCotizacionCotiacionDetallesII.Designer.cs">
+      <DependentUpon>201810181720525_AjusteItemServiciosCotizacionCotiacionDetallesII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810221854381_AjusteCoizacionImpuestoPrecio.cs" />
+    <Compile Include="Migrations\201810221854381_AjusteCoizacionImpuestoPrecio.Designer.cs">
+      <DependentUpon>201810221854381_AjusteCoizacionImpuestoPrecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811031333476_ajustestatus.cs" />
+    <Compile Include="Migrations\201811031333476_ajustestatus.Designer.cs">
+      <DependentUpon>201811031333476_ajustestatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811162046222_updateCotizacion.cs" />
+    <Compile Include="Migrations\201811162046222_updateCotizacion.Designer.cs">
+      <DependentUpon>201811162046222_updateCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811231318389_fixingModel.cs" />
+    <Compile Include="Migrations\201811231318389_fixingModel.Designer.cs">
+      <DependentUpon>201811231318389_fixingModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811260323464_consecutivo.cs" />
+    <Compile Include="Migrations\201811260323464_consecutivo.Designer.cs">
+      <DependentUpon>201811260323464_consecutivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811270402240_ClienteCotizacion.cs" />
+    <Compile Include="Migrations\201811270402240_ClienteCotizacion.Designer.cs">
+      <DependentUpon>201811270402240_ClienteCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811300023555_fixingchanges.cs" />
+    <Compile Include="Migrations\201811300023555_fixingchanges.Designer.cs">
+      <DependentUpon>201811300023555_fixingchanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812040253552_fixingchanges002.cs" />
+    <Compile Include="Migrations\201812040253552_fixingchanges002.Designer.cs">
+      <DependentUpon>201812040253552_fixingchanges002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812070357190_localidadcliente.cs" />
+    <Compile Include="Migrations\201812070357190_localidadcliente.Designer.cs">
+      <DependentUpon>201812070357190_localidadcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812101648411_UpdateTablesRelationsAndDefaultValues.cs" />
+    <Compile Include="Migrations\201812101648411_UpdateTablesRelationsAndDefaultValues.Designer.cs">
+      <DependentUpon>201812101648411_UpdateTablesRelationsAndDefaultValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812101839173_AlterBaseObservacion.cs" />
+    <Compile Include="Migrations\201812101839173_AlterBaseObservacion.Designer.cs">
+      <DependentUpon>201812101839173_AlterBaseObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812101921413_AlterTablesObservacion.cs" />
+    <Compile Include="Migrations\201812101921413_AlterTablesObservacion.Designer.cs">
+      <DependentUpon>201812101921413_AlterTablesObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812102056407_AlterTableCotizacionAddLocacion.cs" />
+    <Compile Include="Migrations\201812102056407_AlterTableCotizacionAddLocacion.Designer.cs">
+      <DependentUpon>201812102056407_AlterTableCotizacionAddLocacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812102254414_AlterTableCotizacionColumnObservacion.cs" />
+    <Compile Include="Migrations\201812102254414_AlterTableCotizacionColumnObservacion.Designer.cs">
+      <DependentUpon>201812102254414_AlterTableCotizacionColumnObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812110135373_AlterTableCotizacionDetalleConstraignUnique.cs" />
+    <Compile Include="Migrations\201812110135373_AlterTableCotizacionDetalleConstraignUnique.Designer.cs">
+      <DependentUpon>201812110135373_AlterTableCotizacionDetalleConstraignUnique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812110437234_AlterTableCotizacionAprobacion.cs" />
+    <Compile Include="Migrations\201812110437234_AlterTableCotizacionAprobacion.Designer.cs">
+      <DependentUpon>201812110437234_AlterTableCotizacionAprobacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901061945147_TipoServicioDescripcion.cs" />
+    <Compile Include="Migrations\201901061945147_TipoServicioDescripcion.Designer.cs">
+      <DependentUpon>201901061945147_TipoServicioDescripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902202213457_RelationCotizacionLocalidades.cs" />
+    <Compile Include="Migrations\201902202213457_RelationCotizacionLocalidades.Designer.cs">
+      <DependentUpon>201902202213457_RelationCotizacionLocalidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Consecutivo.cs" />
+    <Compile Include="Models\Fechas.cs" />
+    <Compile Include="Models\Localidad.cs" />
+    <Compile Include="Models\Provincias.cs" />
+    <Compile Include="Controllers\ItemsServicioController.cs" />
+    <Compile Include="Controllers\ServiciosController.cs" />
+    <Compile Include="Controllers\SubTipoUnidadesController.cs" />
+    <Compile Include="Controllers\TipoDocumentosController.cs" />
+    <Compile Include="Controllers\TipoPersonasController.cs" />
+    <Compile Include="Controllers\TipoServiciosController.cs" />
+    <Compile Include="Controllers\TipoUnidadesController.cs" />
+    <Compile Include="Controllers\UnidadesController.cs" />
+    <Compile Include="Controllers\UnidadesMedidaController.cs" />
+    <Compile Include="Utilities\Functions.cs" />
+    <Compile Include="Utilities\ExceptionsHandlers.cs" />
+    <Compile Include="Utilities\AuthorizeAttribute .cs" />
+    <Compile Include="Utilities\ContextHelper.cs" />
+    <Compile Include="ViewModels\AccountModels.cs" />
+    <Compile Include="Models\Categorias.cs" />
+    <Compile Include="Models\Gremios.cs" />
+    <Compile Include="ViewModels\ContadorModel.cs" />
+    <Compile Include="ViewModels\CotizacionEstatusModel.cs" />
+    <Compile Include="ViewModels\CotizacionContratoItemModel.cs" />
+    <Compile Include="ViewModels\CotizacionContratoModel.cs" />
+    <Compile Include="ViewModels\CotizacionAprobacionModel.cs" />
+    <Compile Include="ViewModels\CotizacionEvaluacionModel.cs" />
+    <Compile Include="ViewModels\ListTextValue.cs" />
+    <Compile Include="ViewModels\PagingParameterModel.cs" />
+    <Compile Include="Providers\ApplicationOAuthProvider.cs" />
+    <Compile Include="StartUp.cs" />
+    <Compile Include="Utilities\DocumentoDownloadResult.cs" />
+    <Compile Include="Utilities\ExtendedMigrationCodeGenerator.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Bases.cs" />
+    <Compile Include="Models\Clientes.cs" />
+    <Compile Include="Models\Contrato.cs" />
+    <Compile Include="Models\Cotizacion.cs" />
+    <Compile Include="Models\CotizacionDetalles.cs" />
+    <Compile Include="Models\DBModel.cs" />
+    <Compile Include="Models\Documentacion.cs" />
+    <Compile Include="Models\Empleados.cs" />
+    <Compile Include="Models\Personas.cs" />
+    <Compile Include="Models\ItemsServicio.cs" />
+    <Compile Include="Models\Servicios.cs" />
+    <Compile Include="Models\SubTipoUnidad.cs" />
+    <Compile Include="Models\TipoDocumento.cs" />
+    <Compile Include="Models\TipoPersona.cs" />
+    <Compile Include="Models\TipoServicio.cs" />
+    <Compile Include="Models\TipoUnidad.cs" />
+    <Compile Include="Models\Unidades.cs" />
+    <Compile Include="Models\UnidadMedida.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\LowercaseContractResolver .cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\GH_Logo.xcf" />
+    <Content Include="Views\Error\Error400.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="UploadedFiles\_.Grupo Horizonte._TestUoload.pdf" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="UploadedFiles\00000000090000001008201810303944.pdf" />
+    <Content Include="UploadedFiles\00000010020000001008201810302911.pdf" />
+    <Content Include="UploadedFiles\00000090230000001008201810160517.pdf" />
+    <Content Include="UploadedFiles\00000100240000001008201810302700.pdf" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="scripts\jquery-3.3.1.min.map" />
+    <Content Include="scripts\umd\popper.min.js.map" />
+    <Content Include="scripts\umd\popper.js.map" />
+    <Content Include="scripts\umd\popper-utils.min.js.map" />
+    <Content Include="scripts\umd\popper-utils.js.map" />
+    <Content Include="scripts\README.md" />
+    <Content Include="scripts\popper.min.js.map" />
+    <Content Include="scripts\popper.js.map" />
+    <Content Include="scripts\popper-utils.min.js.map" />
+    <Content Include="scripts\popper-utils.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="ngGHApp\src\app\account\users\change-password\" />
+    <Folder Include="ngGHApp\src\app\account\users\show-info\" />
+    <Folder Include="ngGHApp\src\app\admin\cuentas\roles\rol\" />
+    <Folder Include="ngGHApp\src\app\admin\cuentas\usuarios\usuario\" />
+    <Folder Include="ngGHApp\src\app\admin\home\" />
+    <Folder Include="ngGHApp\src\app\admin\parametrizacion\documentacion\documento\" />
+    <Folder Include="ngGHApp\src\app\shared\modules\stat\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ngGHApp\src\app\account\account-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\account.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\account.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\login\login.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\roles\roles-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\roles\roles.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\roles\roles.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\roles\roles.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\roles\role\role-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\users-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\users.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\users.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\users.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\user\change-password.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\user\show-info.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\user\user-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\account\users\user\user-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\clientes-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\clientes.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\clientes.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\clientes.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\cliente\cliente-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\clientes\cliente\cliente-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contratos-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contratos.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contratos.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contratos.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contrato\contrato-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\contratos\contrato\contrato-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobaciones.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\aprobaciones\aprobacion\aprobacion.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluaciones.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\evaluaciones\evaluacion\evaluacion.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitudes.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\cotizaciones\solicitudes\solicitud\solicitud-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleados-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleados.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleados.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleados.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleado\empleado-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\empleados\empleado\empleado-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\bases-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\bases.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\bases.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\bases.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\bases\base\base-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\categoria\categoria.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\documentacion\documentacion.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\gremios\gremios.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidades.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\localidades\localidad\localidad-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincias.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\provincias\provincia\provincia-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidades.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\subtipo-unidades\subtipo-unidad\subtipo-unidad-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documentos.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-documentos\tipo-documento\tipo-documento-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-personas.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-personas\tipo-persona\tipo-persona-edit.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidades.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\tipo-unidades\tipo-unidad\tipo-unidad-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidad-medida\unidad-medida-edit.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\parametrizacion\unidades-medida\unidades-medida.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\personas-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\personas.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\personas.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\personas.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\personas\persona\persona-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidades-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidades.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidades.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidades.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\recursos\unidades\unidad\unidad-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\item-servicio\item-servicio-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\items-servicio\items-servicios.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicios-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicios.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicios.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicios.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\servicios\servicio\servicio-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicios.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-add.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\admin\servicios\tipo-servicios\tipo-servicio\tipo-servicio-details.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\app.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\app.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\access-denied\access-denied-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\access-denied\access-denied.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\access-denied\access-denied.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\not-found\not-found-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\not-found\not-found.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\not-found\not-found.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\server-error\server-error-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\server-error\server-error.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\errors\server-error\server-error.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\components\header\header.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\components\sidebar\sidebar.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\home\home-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\home\home.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\home\home.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\layout-routing.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\layout.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\layout\layout.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\router.animations.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\auth\auth-guard.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\auth\http-error.interceptor.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\auth\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\cuit-mask.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\decimal-number-mask-update.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\decimal-number.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\digit-only.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\phone-mask-update.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\format\phone-mask.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\others\credit-card-image.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\others\pristine.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\compare-passwords-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\cuit-cliente-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\number-only-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\unique-cuit-cliente-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\unique-dni-empleado-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\directives\validators\unique-legajo-empleado-validator.directive.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\functions\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\functions\ngb-date-fr-parser-formatter.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\functions\utils.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\accountmodels.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\bases.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\categoria.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\clientes.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\contadormodel.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\contrato.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\contratonuidades.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\contratopersonas.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\cotizacion.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\cotizacionaprobacionmodel.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\cotizaciondetalles.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\cotizacionevaluacionmodel.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\documentacion.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\empleados.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\gremios.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\itemsservicio.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\listatextvalue.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\localidad.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\pagination.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\personas.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\provincias.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\searchclientemodel.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\servicios.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\subtipounidad.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\tipodocumento.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\tipopersona.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\tiposervicio.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\tipounidad.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\unidades.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\models\unidadmedida.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\compare-date-picker-dates\compare-date-picker-dates.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\compare-date-picker-dates\compare-date-picker-dates.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\loading\loading.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\loading\loading.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\page-header\page-header.component.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\modules\page-header\page-header.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\pipes\shared-pipes.module.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\services\alertify.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\services\formatter.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\services\index.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\app\shared\services\modal.service.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\environments\environment.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\environments\httpOptions.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\main.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\polyfills.ts" />
+    <TypeScriptCompile Include="ngGHApp\src\test.ts" />
+    <TypeScriptCompile Include="scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808170608142_CargaInicial.resx">
+      <DependentUpon>201808170608142_CargaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808170654441_AjustesTablas.resx">
+      <DependentUpon>201808170654441_AjustesTablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808202340599_ModelosBaseCotizacion.resx">
+      <DependentUpon>201808202340599_ModelosBaseCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808210414433_AjusteModeloEmpleadosBase.resx">
+      <DependentUpon>201808210414433_AjusteModeloEmpleadosBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808212053582_TipoDocumentoAplicaA.resx">
+      <DependentUpon>201808212053582_TipoDocumentoAplicaA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808221310443_TipoDocumentoAplicaANoUnique.resx">
+      <DependentUpon>201808221310443_TipoDocumentoAplicaANoUnique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808230134097_AjustesModelosBase.resx">
+      <DependentUpon>201808230134097_AjustesModelosBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808280203406_TablaDummy.resx">
+      <DependentUpon>201808280203406_TablaDummy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808290331057_TablaDummyFix.resx">
+      <DependentUpon>201808290331057_TablaDummyFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809101416107_Documentacion.resx">
+      <DependentUpon>201809101416107_Documentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809112152567_UniqueTipoDocumentoxNombreDocumento.resx">
+      <DependentUpon>201809112152567_UniqueTipoDocumentoxNombreDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809140216309_FixCotizacionDetalleXServicioItems.resx">
+      <DependentUpon>201809140216309_FixCotizacionDetalleXServicioItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809250538343_FixingPersonasUnidadesContratosDocumentacion.resx">
+      <DependentUpon>201809250538343_FixingPersonasUnidadesContratosDocumentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809252129407_foreingkeysubipounidenunida.resx">
+      <DependentUpon>201809252129407_foreingkeysubipounidenunida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809270022209_AgregadoDeCategorias.resx">
+      <DependentUpon>201809270022209_AgregadoDeCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809270026394_deleting dummies.resx">
+      <DependentUpon>201809270026394_deleting dummies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809270110083_categorias.resx">
+      <DependentUpon>201809270110083_categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809272126010_DeleteDummyEmpleado.resx">
+      <DependentUpon>201809272126010_DeleteDummyEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809272129270_BaseEmpleado.resx">
+      <DependentUpon>201809272129270_BaseEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809281806591_RelacionEmpleadosPersona.resx">
+      <DependentUpon>201809281806591_RelacionEmpleadosPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809282155013_DeleteRelationPersonaEmpleado.resx">
+      <DependentUpon>201809282155013_DeleteRelationPersonaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810011747377_fixingerror.resx">
+      <DependentUpon>201810011747377_fixingerror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810011801172_fixingerror2.resx">
+      <DependentUpon>201810011801172_fixingerror2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810040215132_AjusteModelo.resx">
+      <DependentUpon>201810040215132_AjusteModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810040342110_ajusteporintegracion.resx">
+      <DependentUpon>201810040342110_ajusteporintegracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810042251340_ajusteporintegracionii.resx">
+      <DependentUpon>201810042251340_ajusteporintegracionii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810051320206_fixingbase.resx">
+      <DependentUpon>201810051320206_fixingbase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810051355312_fixingbaseii.resx">
+      <DependentUpon>201810051355312_fixingbaseii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810051528368_fixingbaseii1.resx">
+      <DependentUpon>201810051528368_fixingbaseii1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810051533400_fixingbaseiii.resx">
+      <DependentUpon>201810051533400_fixingbaseiii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810060230248_fixingsubtipoidsubtipo.resx">
+      <DependentUpon>201810060230248_fixingsubtipoidsubtipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810090347485_AjusteporGremiosLegajos.resx">
+      <DependentUpon>201810090347485_AjusteporGremiosLegajos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810091302542_EmpleadosGremio.resx">
+      <DependentUpon>201810091302542_EmpleadosGremio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810120215489_AjustePersonasCategorias.resx">
+      <DependentUpon>201810120215489_AjustePersonasCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810170349401_AjustesCotizacion.resx">
+      <DependentUpon>201810170349401_AjustesCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810180309438_Ajustesdatedefault.resx">
+      <DependentUpon>201810180309438_Ajustesdatedefault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181716115_AjusteItemServiciosCotizacionCotiacionDetalles.resx">
+      <DependentUpon>201810181716115_AjusteItemServiciosCotizacionCotiacionDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181720525_AjusteItemServiciosCotizacionCotiacionDetallesII.resx">
+      <DependentUpon>201810181720525_AjusteItemServiciosCotizacionCotiacionDetallesII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810221854381_AjusteCoizacionImpuestoPrecio.resx">
+      <DependentUpon>201810221854381_AjusteCoizacionImpuestoPrecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811031333476_ajustestatus.resx">
+      <DependentUpon>201811031333476_ajustestatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811162046222_updateCotizacion.resx">
+      <DependentUpon>201811162046222_updateCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811231318389_fixingModel.resx">
+      <DependentUpon>201811231318389_fixingModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811260323464_consecutivo.resx">
+      <DependentUpon>201811260323464_consecutivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811270402240_ClienteCotizacion.resx">
+      <DependentUpon>201811270402240_ClienteCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811300023555_fixingchanges.resx">
+      <DependentUpon>201811300023555_fixingchanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812040253552_fixingchanges002.resx">
+      <DependentUpon>201812040253552_fixingchanges002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812070357190_localidadcliente.resx">
+      <DependentUpon>201812070357190_localidadcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812101648411_UpdateTablesRelationsAndDefaultValues.resx">
+      <DependentUpon>201812101648411_UpdateTablesRelationsAndDefaultValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812101839173_AlterBaseObservacion.resx">
+      <DependentUpon>201812101839173_AlterBaseObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812101921413_AlterTablesObservacion.resx">
+      <DependentUpon>201812101921413_AlterTablesObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812102056407_AlterTableCotizacionAddLocacion.resx">
+      <DependentUpon>201812102056407_AlterTableCotizacionAddLocacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812102254414_AlterTableCotizacionColumnObservacion.resx">
+      <DependentUpon>201812102254414_AlterTableCotizacionColumnObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812110135373_AlterTableCotizacionDetalleConstraignUnique.resx">
+      <DependentUpon>201812110135373_AlterTableCotizacionDetalleConstraignUnique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812110437234_AlterTableCotizacionAprobacion.resx">
+      <DependentUpon>201812110437234_AlterTableCotizacionAprobacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901061945147_TipoServicioDescripcion.resx">
+      <DependentUpon>201901061945147_TipoServicioDescripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902202213457_RelationCotizacionLocalidades.resx">
+      <DependentUpon>201902202213457_RelationCotizacionLocalidades.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49457</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:16999/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Target Name="NgDebug" BeforeTargets="Build" Condition="'$(Configuration)' == 'Debug'">
+    <Exec WorkingDirectory="$(ProjectDir)ngGHApp" Command="ng build --delete-output-path --extract-css" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!--Target Name="NgRelease" BeforeTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <Exec WorkingDirectory="$(ProjectDir)ngGHApp" Command="ng build delete-output-path prod" />
+  </Target-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

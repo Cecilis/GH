@@ -1,0 +1,2573 @@
+﻿USE [GH]
+GO
+SET IDENTITY_INSERT [dbo].[Localidad] ON 
+
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1, 1, N'Alejandro Petión', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2, 1, N'Alto Los Cardales', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (3, 1, N'Arribeños (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (4, 1, N'Ascensión (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (5, 1, N'Balneario Chapalcó', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (6, 1, N'Cacharí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (7, 1, N'Campos Salles', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (8, 1, N'Casbas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (9, 1, N'Chascomús Country Club', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (10, 1, N'Chillar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (11, 1, N'Claromecó', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (12, 1, N'Comandante Nicanor Otamendi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (13, 1, N'Country Club Bosque Real-Barrio Morabo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (14, 1, N'Country Los Médanos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (15, 1, N'Darregueira', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (16, 1, N'Eduardo O Brien', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (17, 1, N'El Remanso (barrio parque)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (18, 1, N'Empalme Lobos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (19, 1, N'Estación Camet', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (20, 1, N'Ferré (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (21, 1, N'General Mansilla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (22, 1, N'General Rojo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (23, 1, N'Gobernador Castro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (24, 1, N'Henderson (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (25, 1, N'Hilario Ascasubi (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (26, 1, N'Hinojo (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (27, 1, N'Huanguelén', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (28, 1, N'Jeppener', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (29, 1, N'Juan Bautista Alberdi (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (30, 1, N'Juan Cousté (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (31, 1, N'Juan José Paso (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (32, 1, N'Juan Nepomuceno Fernández (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (33, 1, N'La Dulce', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (34, 1, N'Leandro N. Alem (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (35, 1, N'Lima (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (36, 1, N'Loma Negra', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (37, 1, N'Los Cardales', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (38, 1, N'Luján', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (39, 1, N'Mayor Buratovich', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (40, 1, N'Moquehuá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (41, 1, N'Nicolás Levalle (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (42, 1, N'Norberto de la Riestra (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (43, 1, N'Orense (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (44, 1, N'Palemón Huergo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (45, 1, N'Parada Robles', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (46, 1, N'Paraje Vallimanca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (47, 1, N'Pavón (Exaltación de la Cruz)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (48, 1, N'Pedro Luro (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (49, 1, N'Pérez Millán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (50, 1, N'Piedritas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (51, 1, N'Quequén', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (52, 1, N'Rawson (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (53, 1, N'Roberts (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (54, 1, N'Saavedra (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (55, 1, N'San José (Coronel Suárez)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (56, 1, N'Santa Lucía (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (57, 1, N'Santa Rosa (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (58, 1, N'Sierra Chica (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (59, 1, N'Sierra de la Ventana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (60, 1, N'Sierras Bayas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (61, 1, N'Treinta de Agosto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (62, 1, N'Tres Algarrobos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (63, 1, N'Urdampilleta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (64, 1, N'Villa Arcadia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (65, 1, N'Villa Cacique', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (66, 1, N'Villa Campi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (67, 1, N'Villa Canto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (68, 1, N'Villa Ramallo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (69, 1, N'Villalonga (Buenos Aires)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (70, 2, N'Andalgalá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (71, 2, N'Belén (Catamarca)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (72, 2, N'Casa de Piedra (Santa María)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (73, 2, N'Chumbicha', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (74, 2, N'Fiambalá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (75, 2, N'Huillapima', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (76, 2, N'Icaño (Catamarca)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (77, 2, N'La Puntilla (Santa María)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (78, 2, N'La Ramadita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (79, 2, N'Lavalle (Catamarca-Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (80, 2, N'Londres (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (81, 2, N'Los Altos (Catamarca)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (82, 2, N'Palo Seco (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (83, 2, N'Pampa Blanca (Catamarca)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (84, 2, N'San José (Santa María)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (85, 2, N'San José Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (86, 2, N'San José Villa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (87, 2, N'San Pedro de Guasayán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (88, 2, N'Santa María (Catamarca)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (89, 2, N'Santa Rosa (Tinogasta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (90, 2, N'Saujil', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (91, 2, N'Tinogasta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (92, 2, N'Villa de Pomán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (93, 3, N'Avia Terai', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (94, 3, N'Campo Largo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (95, 3, N'Charata', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (96, 3, N'Colonia Benítez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (97, 3, N'Colonia Elisa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (98, 3, N'Colonias Unidas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (99, 3, N'Comandancia Frías', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (100, 3, N'Concepción del Bermejo (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (101, 3, N'Coronel Du Graty', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (102, 3, N'Corzuela (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (103, 3, N'El Paranacito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (104, 3, N'El Sauzalito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (105, 3, N'Fortín Belgrano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (106, 3, N'Gancedo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (107, 3, N'General José de San Martín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (108, 3, N'General Pinedo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (109, 3, N'Hermoso Campo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (110, 3, N'Horquilla (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (111, 3, N'Juan José Castelli (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (112, 3, N'La Clotilde', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (113, 3, N'La Escondida (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (114, 3, N'La Leonesa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (115, 3, N'La Tigra (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (116, 3, N'La Verde (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (117, 3, N'Las Breñas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (118, 3, N'Las Garcitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (119, 3, N'Las Palmas (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (120, 3, N'Los Frentones', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (121, 3, N'Machagai', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (122, 3, N'Makallé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (123, 3, N'Margarita Belén', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (124, 3, N'Miraflores (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (125, 3, N'Misión Nueva Pompeya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (126, 3, N'Napenay', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (127, 3, N'Pampa del Indio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (128, 3, N'Pampa del Infierno', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (129, 3, N'Presidencia de la Plaza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (130, 3, N'Presidencia Roca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (131, 3, N'Puerto Bermejo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (132, 3, N'Puerto Tirol', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (133, 3, N'Quitilipi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (134, 3, N'San Bernardo (Chaco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (135, 3, N'Paraje San Fernando', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (136, 3, N'Santa Sylvina', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (137, 3, N'Taco Pozo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (138, 3, N'Tres Isletas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (139, 3, N'Villa Ángela', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (140, 3, N'Villa Berthet', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (141, 3, N'Villa Río Bermejito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (142, 4, N'Dolavon', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (143, 4, N'El Maitén', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (144, 4, N'Gobernador Costa (Chubut)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (145, 4, N'Lago Puelo (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (146, 4, N'Playa Unión', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (147, 4, N'Río Mayo (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (148, 4, N'Trevelin', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (149, 5, N'Achiras', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (150, 5, N'Adelia María', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (151, 5, N'Alcira Gigena', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (152, 5, N'Alejandro Roca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (153, 5, N'Alejo Ledesma', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (154, 5, N'Alicia (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (155, 5, N'Almafuerte (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (156, 5, N'Alta Gracia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (157, 5, N'Alto Resbaloso-El Barrial', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (158, 5, N'Anisacate', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (159, 5, N'Arias (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (160, 5, N'Arroyito (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (161, 5, N'Arroyo Cabral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (162, 5, N'Ballesteros (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (163, 5, N'Balnearia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (164, 5, N'Berrotarán (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (165, 5, N'Bialet Massé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (166, 5, N'Brinkmann', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (167, 5, N'Calchín (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (168, 5, N'Camilo Aldao', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (169, 5, N'Canals (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (170, 5, N'Capilla del Monte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (171, 5, N'Casa Grande (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (172, 5, N'Colonia Caroya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (173, 5, N'Colonia La Argentina (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (174, 5, N'Coronel Moldes (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (175, 5, N'Corral de Bustos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (176, 5, N'Cosquín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (177, 5, N'Country Chacras de la Villa-Country San Isidro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (178, 5, N'Cruz Alta (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (179, 5, N'Cuesta Blanca (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (180, 5, N'Deán Funes (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (181, 5, N'Del Campillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (182, 5, N'Despeñaderos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (183, 5, N'Devoto (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (184, 5, N'El Pueblito (San Javier)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (185, 5, N'El Valle (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (186, 5, N'Elena (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (187, 5, N'Embalse (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (188, 5, N'Estación Juárez Celman', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (189, 5, N'Estancia Vieja', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (190, 5, N'Etruria (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (191, 5, N'Freyre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (192, 5, N'General Baldissera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (193, 5, N'General Cabrera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (194, 5, N'General Deheza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (195, 5, N'General Levalle', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (196, 5, N'General Roca (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (197, 5, N'Guatimozín (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (198, 5, N'Hernando (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (199, 5, N'Huerta Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (200, 5, N'Huinca Renancó', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (201, 5, N'Inriville', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (202, 5, N'Isla Verde (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (203, 5, N'James Craik', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (204, 5, N'Jesús María (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (205, 5, N'José de la Quintana (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (206, 5, N'Jovita (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (207, 5, N'Justiniano Posse (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (208, 5, N'La Carlota (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (209, 5, N'La Cumbre (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (210, 5, N'La Cumbrecita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (211, 5, N'La Falda', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (212, 5, N'La Francia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (213, 5, N'La Para', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (214, 5, N'La Paz (Totoral)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (215, 5, N'La Perla (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (216, 5, N'La Población (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (217, 5, N'La Rancherita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (218, 5, N'La Serranita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (219, 5, N'Laborde (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (220, 5, N'Laboulaye', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (221, 5, N'Laguna Larga', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (222, 5, N'Las Acequias', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (223, 5, N'Las Chacras (La Paz)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (224, 5, N'Las Chacras (Villa de las Rosas)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (225, 5, N'Las Higueras', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (226, 5, N'Las Perdices', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (227, 5, N'Las Tapias (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (228, 5, N'Leones (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (229, 5, N'Los Cerrillos (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (230, 5, N'Los Cocos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (231, 5, N'Los Cóndores (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (232, 5, N'Los Romeros (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (233, 5, N'Los Surgentes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (234, 5, N'Luque (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (235, 5, N'Malagueño (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (236, 5, N'Malvinas Argentinas (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (237, 5, N'Marcos Juárez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (238, 5, N'Mayu Sumaj', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (239, 5, N'Mi Granja', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (240, 5, N'Mina Clavero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (241, 5, N'Molinari (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (242, 5, N'Monte Buey', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (243, 5, N'Monte Cristo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (244, 5, N'Monte Maíz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (245, 5, N'Morrison (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (246, 5, N'Morteros (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (247, 5, N'Noetinger', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (248, 5, N'Oliva (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (249, 5, N'Oncativo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (250, 5, N'Ordóñez (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (251, 5, N'Pascanas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (252, 5, N'Paso del Durazno', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (253, 5, N'Pilar (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (254, 5, N'La Playosa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (255, 5, N'Porteña', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (256, 5, N'Pozo del Molle', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (257, 5, N'Quilino', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (258, 5, N'Río Primero (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (259, 5, N'Río Segundo (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (260, 5, N'Ciudad de Río Tercero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (261, 5, N'Rumi Huasi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (262, 5, N'Sacanta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (263, 5, N'Sampacho', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (264, 5, N'San Agustín (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (265, 5, N'San Antonio de Arredondo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (266, 5, N'San Basilio (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (267, 5, N'San Esteban (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (268, 5, N'San Francisco (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (269, 5, N'San Francisco del Chañar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (270, 5, N'San José de la Dormida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (271, 5, N'San Marcos Sud', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (272, 5, N'San Pedro (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (273, 5, N'San Roque (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (274, 5, N'Santa Catalina (Río Cuarto)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (275, 5, N'Santa Elena (Colón)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (276, 5, N'Santa María de Punilla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (277, 5, N'Santa Mónica (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (278, 5, N'Santa Rosa de Calamuchita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (279, 5, N'Santa Rosa de Río Primero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (280, 5, N'Santiago Temple', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (281, 5, N'Saturnino María Laspiur (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (282, 5, N'Sebastián Elcano (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (283, 5, N'Serrano (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (284, 5, N'Serrezuela (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (285, 5, N'Tala Huasi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (286, 5, N'Tancacha', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (287, 5, N'Tanti', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (288, 5, N'Tío Pujio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (289, 5, N'Toledo (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (290, 5, N'Tránsito (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (291, 5, N'Trinchera (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (292, 5, N'Tronco Pozo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (293, 5, N'Ucacha', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (294, 5, N'Valle de Anisacate', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (295, 5, N'Valle Hermoso (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (296, 5, N'Vicuña Mackenna (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (297, 5, N'Villa Ascasubi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (298, 5, N'Villa Carlos Paz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (299, 5, N'Villa Cura Brochero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (300, 5, N'Villa de Las Rosas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (301, 5, N'Villa de los Ranchos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (302, 5, N'Villa de María', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (303, 5, N'Villa de Soto (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (304, 5, N'Villa del Dique', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (305, 5, N'Villa del Rosario (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (306, 5, N'Villa del Totoral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (307, 5, N'Villa Dolores (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (308, 5, N'Villa General Belgrano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (309, 5, N'Villa Giardino', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (310, 5, N'Villa Huidobro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (311, 5, N'Villa Icho Cruz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (312, 5, N'Villa La Bolsa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (313, 5, N'Villa Los Aromos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (314, 5, N'Villa Los Llanos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (315, 5, N'Villa Nueva (Córdoba)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (316, 5, N'Villa Parque Síquiman', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (317, 5, N'Villa Reducción', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (318, 5, N'Villa Rumipal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (319, 5, N'Villa San Nicolás', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (320, 5, N'Villa Santa Cruz del Lago', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (321, 5, N'Villa Sarmiento (San Alberto)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (322, 5, N'Villa Valeria', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (671, 6, N'Alvear (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (672, 6, N'Barrio Esperanza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (673, 6, N'Bella Vista (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (674, 6, N'Caá Catí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (675, 6, N'Chavarría', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (676, 6, N'Colonia Liebig', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (677, 6, N'Colonia Santa Rosa (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (678, 6, N'Concepción (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (679, 6, N'Empedrado (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (680, 6, N'Esquina (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (681, 6, N'Gobernador Virasoro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (682, 6, N'Goya (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (683, 6, N'Itá Ibaté', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (684, 6, N'Itatí (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (685, 6, N'Ituzaingó (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (686, 6, N'La Cruz (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (687, 6, N'Laguna Brava (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (688, 6, N'Lavalle (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (689, 6, N'Mburucuyá (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (690, 6, N'Mercedes (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (691, 6, N'Mocoretá (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (692, 6, N'Nueve de Julio (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (693, 6, N'Paso de la Patria', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (694, 6, N'Perugorría', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (695, 6, N'Saladas (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (696, 6, N'San Carlos (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (697, 6, N'San Cosme (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (698, 6, N'San Lorenzo (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (699, 6, N'San Luis del Palmar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (700, 6, N'San Miguel (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (701, 6, N'San Roque (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (702, 6, N'Santa Lucía (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (703, 6, N'Santo Tomé (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (704, 6, N'Sauce (Corrientes)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (739, 7, N'Aldea Asunción', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (740, 7, N'Aldea Brasilera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (741, 7, N'Aldea María Luisa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (742, 7, N'Aldea Protestante', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (743, 7, N'Aldea Salto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (744, 7, N'Aldea San Antonio (Gualeguaychú)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (745, 7, N'Aldea San Francisco', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (746, 7, N'Aldea San Juan', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (747, 7, N'Aldea San Rafael', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (748, 7, N'Aldea Santa María (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (749, 7, N'Aldea Santa Rosa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (750, 7, N'Aldea Spatzenkutter', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (751, 7, N'Aldea Valle María', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (752, 7, N'Altamirano Sur', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (753, 7, N'Antelo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (754, 7, N'Arroyo Barú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (755, 7, N'Arroyo Clé (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (756, 7, N'Arroyo Martínez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (757, 7, N'Betbeder', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (758, 7, N'Calabacilla (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (759, 7, N'Caseros (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (760, 7, N'Ceibas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (761, 7, N'Cerrito (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (762, 7, N'Chajarí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (763, 7, N'Charigüé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (764, 7, N'Clodomiro Ledesma', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (765, 7, N'Colonia Alemana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (766, 7, N'Colonia Avellaneda', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (767, 7, N'Colonia Avigdor', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (768, 7, N'Colonia Ayuí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (769, 7, N'Colonia Elía', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (770, 7, N'Colonia Ensanche Sauce', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (771, 7, N'Colonia Ensayo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (772, 7, N'Colonia Hocker', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (773, 7, N'Colonia Hugues', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (774, 7, N'Colonia La Argentina (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (775, 7, N'Colonia Peña', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (776, 7, N'Colonia Roca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (777, 7, N'Colonia Santa María (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (778, 7, N'Conscripto Bernardi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (779, 7, N'Don Cristóbal Primero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (780, 7, N'Durazno (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (781, 7, N'El Cimarrón (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (782, 7, N'El Pingo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (783, 7, N'El Redomón', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (784, 7, N'El Solar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (785, 7, N'Enrique Carbó (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (786, 7, N'Estación Camps', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (787, 7, N'Estación Gobernador Echagüe', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (788, 7, N'Estación Gobernador Sola', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (789, 7, N'Estación Lazo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (790, 7, N'Estación Líbaros', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (791, 7, N'Estación Raíces', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (792, 7, N'Estación Sosa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (793, 7, N'Estación Yeruá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (794, 7, N'Estación Yuquerí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (795, 7, N'Estancia Grande (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (796, 7, N'Estancia San Pedro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (797, 7, N'Faustino M. Parera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (798, 7, N'Febre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (799, 7, N'Federal (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (800, 7, N'General Almada', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (801, 7, N'General Campos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (802, 7, N'General Galarza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (803, 7, N'General Racedo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (804, 7, N'General Ramírez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (805, 7, N'Gilbert (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (806, 7, N'Gobernador Etchevehere', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (807, 7, N'Gobernador Mansilla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (808, 7, N'Guardamonte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (809, 7, N'Hambis', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (810, 7, N'Hasenkamp', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (811, 7, N'Hernández (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (812, 7, N'Herrera (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (813, 7, N'Ingeniero Miguel Sajaroff', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (814, 7, N'Irazusta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (815, 7, N'Jubileo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (816, 7, N'La Clarita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (817, 7, N'La Criolla (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (818, 7, N'La Picada', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (819, 7, N'Laguna del Pescado (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (820, 7, N'Las Guachas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (821, 7, N'Las Moscas (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (822, 7, N'Las Tunas (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (823, 7, N'Libertador San Martín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (824, 7, N'Los Charrúas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (825, 7, N'Los Conquistadores (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (826, 7, N'Lucas González (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (827, 7, N'Maciá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (828, 7, N'María Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (829, 7, N'Médanos (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (830, 7, N'Mojones Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (831, 7, N'Molino Doll', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (832, 7, N'Nueva Escocia (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (833, 7, N'Nueva Vizcaya (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (834, 7, N'Ñancay', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (835, 7, N'Osvaldo Magnasco (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (836, 7, N'Paraje La Virgen', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (837, 7, N'Paso de la Laguna', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (838, 7, N'Pedernal (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (839, 7, N'Piedras Blancas (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (840, 7, N'Primero de Mayo (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (841, 7, N'Pronunciamiento (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (842, 7, N'Pueblo Bellocq', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (843, 7, N'Pueblo Brugo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (844, 7, N'Pueblo Cazes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (845, 7, N'Pueblo General Belgrano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (846, 7, N'Pueblo Liebig', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (847, 7, N'Puerto Alvear', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (848, 7, N'Puerto Curtiembre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (849, 7, N'Puerto Las Cuevas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (850, 7, N'Puerto Ruiz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (851, 7, N'Puerto Yeruá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (852, 7, N'Puiggari', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (853, 7, N'Rincón de Nogoyá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (854, 7, N'Rocamora', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (855, 7, N'Rosario del Tala', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (856, 7, N'San Gustavo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (857, 7, N'San Jaime de la Frontera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (858, 7, N'San José de Feliciano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (859, 7, N'San Pedro (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (860, 7, N'San Víctor (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (861, 7, N'Santa Ana (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (862, 7, N'Santa Anita (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (863, 7, N'Santa Elena (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (864, 7, N'Sauce de Luna', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (865, 7, N'Sauce Montrull', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (866, 7, N'Sauce Pinto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (867, 7, N'Seguí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (868, 7, N'Sir Leonard', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (869, 7, N'Tabossi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (870, 7, N'Tezanos Pinto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (871, 7, N'Ubajay (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (872, 7, N'Urdinarrain', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (873, 7, N'Villa Alcaraz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (874, 7, N'Villa Aranguren', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (875, 7, N'Villa Clara (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (876, 7, N'Villa del Rosario (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (877, 7, N'Villa Domínguez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (878, 7, N'Villa Fontana (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (879, 7, N'Villa Hernandarias', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (880, 7, N'Villa Mantero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (881, 7, N'Villa Paranacito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (882, 7, N'Villa San Justo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (883, 7, N'Villa San Marcial', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (884, 7, N'Villa Urquiza (Entre Ríos)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (885, 7, N'XX de Setiembre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (886, 8, N'Comandante Fontana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (887, 8, N'El Colorado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (888, 8, N'El Espinillo (Formosa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (889, 8, N'El Potrillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (890, 8, N'Estanislao del Campo (Formosa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (891, 8, N'General Lucio V. Mansilla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (892, 8, N'General Manuel Belgrano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (893, 8, N'Herradura (Formosa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (894, 8, N'Ibarreta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (895, 8, N'Ingeniero Juárez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (896, 8, N'Laguna Blanca (Formosa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (897, 8, N'Laguna Naick Neck', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (898, 8, N'Laguna Yema (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (899, 8, N'Las Lomitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (900, 8, N'Mayor Vicente Villafañe', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (901, 8, N'Misión Tacaaglé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (902, 8, N'Palo Santo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (903, 8, N'Pirané', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (904, 8, N'Pozo del Tigre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (905, 8, N'Riacho He-Hé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (906, 8, N'San Francisco de Laishí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (907, 8, N'San Martín 2', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (908, 8, N'Villa del Carmen (Formosa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (909, 8, N'Villa Dos Trece', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (910, 8, N'Villa General Güemes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (936, 9, N'Abra Pampa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (937, 9, N'Aceros Zapla S.A.', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (938, 9, N'Aguas Calientes (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (939, 9, N'Arrayanal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (940, 9, N'Arroyo Colorado (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (941, 9, N'Bananal (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (942, 9, N'Bárcena (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (943, 9, N'Barrio La Unión (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (944, 9, N'Bermejito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (945, 9, N'Caimancito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (946, 9, N'Calilegua (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (947, 9, N'Carahunco', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (948, 9, N'Casira', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (949, 9, N'Caspalá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (950, 9, N'Centro Forestal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (951, 9, N'Chalicán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (952, 9, N'Ciénega de Paicone', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (953, 9, N'Cieneguillas (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (954, 9, N'Coctaca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (955, 9, N'Colonia San José (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (956, 9, N'Cusi Cusi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (957, 9, N'Don Emilio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (958, 9, N'El Acheral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (959, 9, N'El Aguilar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (960, 9, N'El Angosto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (961, 9, N'El Carmen (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (962, 9, N'El Ceibal (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (963, 9, N'El Cóndor (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (964, 9, N'El Fuerte (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (965, 9, N'El Moreno', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (966, 9, N'El Piquete', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (967, 9, N'El Puesto (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (968, 9, N'El Quemado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (969, 9, N'El Sauzal (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (970, 9, N'El Talar (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (971, 9, N'Fleming (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (972, 9, N'Fraile Pintado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (973, 9, N'Huacalera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (974, 9, N'Humahuaca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (975, 9, N'Juella', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (976, 9, N'La Ciénaga (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (977, 9, N'La Esperanza (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (978, 9, N'La Manga (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (979, 9, N'La Mendieta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (980, 9, N'La Ovejería', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (981, 9, N'La Quiaca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (982, 9, N'Libertad (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (983, 9, N'Libertador General San Martín (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (984, 9, N'Los Alisos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (985, 9, N'Los Lapachos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (986, 9, N'Los Nogales (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (987, 9, N'Maimará', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (988, 9, N'Manantiales (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (989, 9, N'Mina 9 de Octubre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (990, 9, N'Miraflores (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (991, 9, N'Misa Rumi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (992, 9, N'Monterrico', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (993, 9, N'Oratorio (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (994, 9, N'Paicone', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (995, 9, N'Palma Sola (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (996, 9, N'Palos Blancos (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (997, 9, N'Pampa Blanca (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (998, 9, N'Pampichuela', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (999, 9, N'Parapetí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1000, 9, N'Paulina (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1001, 9, N'Perico (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1002, 9, N'Piedritas (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1003, 9, N'Pila Pardo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1004, 9, N'Mina Pirquitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1005, 9, N'Posta de Hornillos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1006, 9, N'Puente Lavayén', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1007, 9, N'Puesto Viejo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1008, 9, N'Purmamarca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1009, 9, N'Río Blanco (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1010, 9, N'Rodeíto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1011, 9, N'Rosario de Río Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1012, 9, N'San Antonio (San Antonio, Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1013, 9, N'San Antonio (San Pedro, Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1014, 9, N'San Francisco (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1015, 9, N'San Isidro (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1016, 9, N'San Juan de Oros', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1017, 9, N'San Juancito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1018, 9, N'San Lucas (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1019, 9, N'San Pablo de Reyes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1020, 9, N'San Pedro de Jujuy', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1021, 9, N'Santa Ana (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1022, 9, N'Santa Catalina (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1023, 9, N'Santa Clara (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1024, 9, N'Tabladitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1025, 9, N'Tilcara', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1026, 9, N'Tres Cruces (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1027, 9, N'Tumbaya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1028, 9, N'Uquía', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1029, 9, N'Valle Colorado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1030, 9, N'Valle Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1031, 9, N'Villa Palpalá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1032, 9, N'Vinalito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1033, 9, N'Volcán (Jujuy)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1034, 9, N'Yacoraite', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1035, 9, N'Yoscaba', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1036, 9, N'Yuto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1138, 10, N'25 de Mayo (La Pampa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1139, 10, N'Caleufú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1140, 10, N'Catriló', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1141, 10, N'Colonia Barón', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1142, 10, N'Eduardo Castex', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1143, 10, N'General Acha', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1144, 10, N'General San Martín (La Pampa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1145, 10, N'Guatraché', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1146, 10, N'Ingeniero Luiggi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1147, 10, N'Intendente Alvear', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1148, 10, N'Jacinto Aráuz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1149, 10, N'La Adela', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1150, 10, N'Leubucó (La Pampa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1151, 10, N'Macachín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1152, 10, N'Miguel Riglos (La Pampa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1153, 10, N'Parera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1154, 10, N'Quemú Quemú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1155, 10, N'Rancul', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1156, 10, N'Realicó', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1157, 10, N'Santa Isabel (La Pampa)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1158, 10, N'Toay', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1159, 10, N'Trenel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1160, 10, N'Victorica', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1161, 10, N'Winifreda', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1186, 11, N'Alpasinche', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1187, 11, N'Amuschinas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1188, 11, N'Andolucas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1189, 11, N'Anguinán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1190, 11, N'Banda Florida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1191, 11, N'Chaupihuasi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1192, 11, N'Cuipán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1193, 11, N'El Retiro (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1194, 11, N'Guandacol', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1195, 11, N'La Puntilla (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1196, 11, N'Las Talas (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1197, 11, N'Los Robles', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1198, 11, N'Los Sarmientos (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1199, 11, N'Machigasta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1200, 11, N'Maicán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1201, 11, N'Milagro (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1202, 11, N'Nonogasta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1203, 11, N'Salicas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1204, 11, N'San Antonio (Arauco)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1205, 11, N'San Miguel (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1206, 11, N'Santa Clara (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1207, 11, N'Schaqui', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1208, 11, N'Suriyaco', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1209, 11, N'Tuyubil', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1210, 11, N'Valle Hermoso (La Rioja)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1211, 11, N'Vichigasta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1212, 11, N'Villa Casana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1213, 12, N'Agrelo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1214, 12, N'Agua Escondida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1215, 12, N'Alto del Olvido', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1216, 12, N'Alto Salvador', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1217, 12, N'Alto Verde (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1218, 12, N'Andrade (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1219, 12, N'Bardas Blancas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1220, 12, N'Barrancas (Maipú)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1221, 12, N'Barrio ADINA', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1222, 12, N'Barrio Belgrano Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1223, 12, N'Barrio Chivilcoy', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1224, 12, N'Barrio Cooperativa Los Campamentos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1225, 12, N'Barrio Echeverría', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1226, 12, N'Barrio El Nevado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1227, 12, N'Barrio Empleados de Comercio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1228, 12, N'Barrio Intendencia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1229, 12, N'Barrio Jesús de Nazaret', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1230, 12, N'Barrio Jocolí II', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1231, 12, N'Barrio La Esperanza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1232, 12, N'Barrio Las Rosas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1233, 12, N'Barrio Los Jarilleros', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1234, 12, N'Barrio María Auxiliadora', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1235, 12, N'Barrio Perdriel IV', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1236, 12, N'Barrio Primavera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1237, 12, N'Barrio Rivadavia (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1238, 12, N'Barrio San Cayetano (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1239, 12, N'Barrio Tres Olivos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1240, 12, N'Blanco Encalada (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1241, 12, N'Bowen', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1242, 12, N'Cacheuta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1243, 12, N'Campo de los Andes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1244, 12, N'Capdevilla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1245, 12, N'Capitán Montoya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1246, 12, N'Carmensa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1247, 12, N'Chacras de Coria', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1248, 12, N'Chapanay', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1249, 12, N'Chilecito (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1250, 12, N'Chivilcoy (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1251, 12, N'Colonia Las Rosas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1252, 12, N'Colonia Segovia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1253, 12, N'Cordón del Plata (Tupungato)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1254, 12, N'Costa de Araujo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1255, 12, N'Costa El Toledano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1256, 12, N'Costa Flores', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1257, 12, N'Cruz de Piedra (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1258, 12, N'Cuadro Benegas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1259, 12, N'Cuadro Nacional', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1260, 12, N'Cuadro Ortega', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1261, 12, N'Desaguadero (Mendoza-San Luis)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1262, 12, N'Doce de Octubre (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1263, 12, N'El Carmelo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1264, 12, N'El Carrizal (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1265, 12, N'El Central', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1266, 12, N'El Cepillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1267, 12, N'El Challao', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1268, 12, N'El Manzano Histórico', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1269, 12, N'El Marcado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1270, 12, N'El Mirador (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1271, 12, N'El Nihuil', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1272, 12, N'El Paramillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1273, 12, N'El Pedregal (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1274, 12, N'El Peral (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1275, 12, N'El Plumerillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1276, 12, N'El Retamo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1277, 12, N'El Salto (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1278, 12, N'El Sosneado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1279, 12, N'El Tropezón', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1280, 12, N'El Vergel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1281, 12, N'Estación Polvaredas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1282, 12, N'Eugenio Bustos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1283, 12, N'General Alvear (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1284, 12, N'Goudge', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1285, 12, N'Ingeniero Giagnoni', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1286, 12, N'Ingeniero Gustavo André', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1287, 12, N'Jaime Prats', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1288, 12, N'Jocolí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1289, 12, N'Jocolí Viejo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1290, 12, N'Junín (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1291, 12, N'La Arboleda (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1292, 12, N'La Central (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1293, 12, N'La Colonia (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1294, 12, N'La Consulta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1295, 12, N'La Dormida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1296, 12, N'La Esperanza (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1297, 12, N'La Florida (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1298, 12, N'La Libertad (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1299, 12, N'La Llave (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1300, 12, N'La Palmera (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1301, 12, N'La Paz (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1302, 12, N'La Pega', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1303, 12, N'La Reducción (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1304, 12, N'Lagunas de Bartoluzzi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1305, 12, N'Las Carditas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1306, 12, N'Las Catitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1307, 12, N'Las Compuertas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1308, 12, N'Las Cuevas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1309, 12, N'Las Leñas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1310, 12, N'Las Malvinas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1311, 12, N'Las Paredes (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1312, 12, N'Las Vegas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1313, 12, N'Las Violetas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1314, 12, N'Los Árboles', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1315, 12, N'Los Barriales', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1316, 12, N'Los Campamentos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1317, 12, N'Los Charabones', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1318, 12, N'Los Compartos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1319, 12, N'Los Corralitos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1320, 12, N'Los Penitentes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1321, 12, N'Los Reyunos (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1322, 12, N'Los Sauces (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1323, 12, N'Malargüe', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1324, 12, N'Manantiales (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1325, 12, N'Medrano (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1326, 12, N'Monte Comán (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1327, 12, N'Montecaseros', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1328, 12, N'Mundo Nuevo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1329, 12, N'Nueva California (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1330, 12, N'Palmira (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1331, 12, N'Papagayos (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1332, 12, N'Pareditas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1333, 12, N'Perdriel (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1334, 12, N'Phillips', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1335, 12, N'Piedras Blancas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1336, 12, N'Pobre Diablo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1337, 12, N'Polvaredas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1338, 12, N'Potrerillos (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1339, 12, N'Puente de Hierro (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1340, 12, N'Puente del Inca (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1341, 12, N'Punta de Vacas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1342, 12, N'Punta del Agua (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1343, 12, N'Rama Caída', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1344, 12, N'Real del Padre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1345, 12, N'Rivadavia (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1346, 12, N'Rodeo del Medio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1347, 12, N'Rodríguez Peña (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1348, 12, N'Russell (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1349, 12, N'Salto de las Rosas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1350, 12, N'San Isidro (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1351, 12, N'San José (Tupungato)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1352, 12, N'San Martín (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1353, 12, N'San Roque (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1354, 12, N'Santa María de Oro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1355, 12, N'Santa Rosa (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1356, 12, N'Anexo:Toponimia indígena de la provincia de Mendoza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1357, 12, N'Tres de Mayo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1358, 12, N'Tres Esquinas (Luján de Cuyo)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1359, 12, N'Tres Esquinas (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1360, 12, N'Tres Porteñas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1361, 12, N'Tunuyán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1362, 12, N'Ciudad de Tupungato', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1363, 12, N'Ugarteche (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1364, 12, N'Uspallata', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1365, 12, N'Valle del Sol (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1366, 12, N'Vallecitos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1367, 12, N'Villa Antigua', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1368, 12, N'Villa Atuel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1369, 12, N'Villa Atuel Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1370, 12, N'Villa Bastías', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1371, 12, N'Villa El Refugio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1372, 12, N'Villa San Carlos (Mendoza)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1373, 12, N'Villa Teresa (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1374, 12, N'Villa Tulumaya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1375, 12, N'Villa Veinticinco de Mayo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1376, 12, N'Vista Flores', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1377, 12, N'Vistalba', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1543, 13, N'9 de Julio (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1544, 13, N'25 de Mayo (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1545, 13, N'Alba Posse', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1546, 13, N'Almafuerte (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1547, 13, N'Apóstoles (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1548, 13, N'Aristóbulo del Valle (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1549, 13, N'Arroyo del Medio (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1550, 13, N'Azara (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1551, 13, N'Barra Concepción', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1552, 13, N'Barrio Bernardino Rivadavia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1553, 13, N'Barrio del Lago', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1554, 13, N'Barrio Rural', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1555, 13, N'Bernardo de Irigoyen (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1556, 13, N'Bonpland (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1557, 13, N'Caá Yarí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1558, 13, N'Camión Cue', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1559, 13, N'Campo Grande (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1560, 13, N'Campo Ramón (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1561, 13, N'Campo Viera (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1562, 13, N'Candelaria (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1563, 13, N'Capioví', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1564, 13, N'Caraguatay (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1565, 13, N'Cerro Azul (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1566, 13, N'Cerro Corá (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1567, 13, N'Colonia Alberdi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1568, 13, N'Colonia Alicia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1569, 13, N'Colonia Aparecida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1570, 13, N'Colonia Aurora', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1571, 13, N'Colonia Delicia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1572, 13, N'Colonia Helvecia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1573, 13, N'Colonia Polana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1574, 13, N'Colonia Victoria (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1575, 13, N'Comandante Andresito (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1576, 13, N'Concepción de la Sierra', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1577, 13, N'Corpus Christi (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1578, 13, N'Cruce Caballero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1579, 13, N'Domingo Savio (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1580, 13, N'Dos Arroyos (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1581, 13, N'Dos de Mayo (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1582, 13, N'Dos Hermanas (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1583, 13, N'El Alcázar (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1584, 13, N'El Piñalito (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1585, 13, N'El Salto (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1586, 13, N'El Soberbio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1587, 13, N'Eldorado (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1588, 13, N'Estación Apóstoles', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1589, 13, N'Fachinal (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1590, 13, N'Florentino Ameghino (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1591, 13, N'Fracrán', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1592, 13, N'Garuhapé', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1593, 13, N'Garuhapé-Mi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1594, 13, N'General Alvear (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1595, 13, N'General Urquiza (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1596, 13, N'Gobernador Lanusse', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1597, 13, N'Gobernador López (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1598, 13, N'Gobernador Roca', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1599, 13, N'Guaraní (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1600, 13, N'Hipólito Yrigoyen (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1601, 13, N'Integración (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1602, 13, N'Itacaruaré', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1603, 13, N'Jardín América (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1604, 13, N'La Corita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1605, 13, N'Laharrague', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1606, 13, N'Leandro N. Alem (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1607, 13, N'Loreto (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1608, 13, N'Los Helechos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1609, 13, N'Mártires (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1610, 13, N'Mbopicuá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1611, 13, N'Mojón Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1612, 13, N'Montecarlo (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1613, 13, N'Nemesio Parma', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1614, 13, N'Nueve de Julio Kilómetro 20', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1615, 13, N'Oasis (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1616, 13, N'Olegario Víctor Andrade (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1617, 13, N'Panambí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1618, 13, N'Panambí Kilómetro 8', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1619, 13, N'Paraíso (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1620, 13, N'Paraje Fontana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1621, 13, N'Peñón del Teyú Cuaré', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1622, 13, N'Pindapoy', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1623, 13, N'Piray Kilómetro 18', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1624, 13, N'Pozo Azul (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1625, 13, N'Primero de Mayo (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1626, 13, N'Profundidad (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1627, 13, N'Pueblo Illia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1628, 13, N'Puerto Azara', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1629, 13, N'Puerto Esperanza (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1630, 13, N'Puerto Iguazú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1631, 13, N'Puerto Leoni', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1632, 13, N'Puerto Libertad (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1633, 13, N'Puerto Mado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1634, 13, N'Puerto Mineral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1635, 13, N'Puerto Pinares', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1636, 13, N'Puerto Piray', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1637, 13, N'Puerto Rico (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1638, 13, N'Puerto Santa Ana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1639, 13, N'Reserva natural de la defensa Puerto Península', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1640, 13, N'Roca Chica', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1641, 13, N'Ruiz de Montoya (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1642, 13, N'San Alberto (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1643, 13, N'San Antonio (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1644, 13, N'San Francisco de Asís (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1645, 13, N'San Gotardo (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1646, 13, N'San Ignacio (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1647, 13, N'San Javier (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1648, 13, N'San José (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1649, 13, N'San Martín (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1650, 13, N'San Pedro (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1651, 13, N'San Vicente (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1652, 13, N'Santa Ana (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1653, 13, N'Santa María (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1654, 13, N'Santa Rita (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1655, 13, N'Santiago de Liniers (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1656, 13, N'Santo Pipó', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1657, 13, N'Tarumá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1658, 13, N'Tobuna', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1659, 13, N'Torta Quemada', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1660, 13, N'Tres Capones', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1661, 13, N'Valle Hermoso (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1662, 13, N'Villa Akerman', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1663, 13, N'Villa Bonita', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1664, 13, N'Villa Libertad (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1665, 13, N'Villa Parodi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1666, 13, N'Villa Roulet', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1667, 13, N'Villa Salto Encantado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1668, 13, N'Villalonga (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1669, 13, N'Wanda (Misiones)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1797, 14, N'Aluminé (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1798, 14, N'Andacollo (Neuquén)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1799, 14, N'Añelo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1800, 14, N'Buta Ranquil', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1801, 14, N'Centenario (Neuquén)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1802, 14, N'Chos Malal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1803, 14, N'Covunco Centro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1804, 14, N'Junín de los Andes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1805, 14, N'Las Lajas (Neuquén)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1806, 14, N'Loncopué', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1807, 14, N'Mariano Moreno (Neuquén)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1808, 14, N'Picún Leufú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1809, 14, N'Piedra del Águila', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1810, 14, N'Plottier', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1811, 14, N'Rincón de los Sauces', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1812, 14, N'San Patricio del Chañar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1813, 14, N'Senillosa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1814, 14, N'Vista Alegre (Neuquén)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1815, 14, N'Zapala', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1835, 15, N'Allen', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1836, 15, N'Barrio El Treinta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1837, 15, N'Barrio Puente 83', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1838, 15, N'Barrio Puente de Madera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1839, 15, N'Barrio Santa María Goretti', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1840, 15, N'Barrio Tres Luces', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1841, 15, N'Campo Grande (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1842, 15, N'Catriel (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1843, 15, N'Cervantes (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1844, 15, N'Chichinales', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1845, 15, N'Chimpay', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1846, 15, N'Choele Choel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1847, 15, N'Cinco Saltos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1848, 15, N'Dina Huapi', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1849, 15, N'General Conesa (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1850, 15, N'General Enrique Godoy', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1851, 15, N'General Fernández Oro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1852, 15, N'Ingeniero Jacobacci', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1853, 15, N'Ingeniero Luis A. Huergo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1854, 15, N'Lamarque (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1855, 15, N'Las Grutas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1856, 15, N'Las Perlas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1857, 15, N'Los Menucos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1858, 15, N'Luis Beltrán (Río Negro)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1859, 15, N'Maquinchao', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1860, 15, N'Pichi Mahuida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1861, 15, N'Sierra Grande', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1862, 15, N'Villa Llao Llao', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1863, 15, N'Villa Manzano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1893, 16, N'Aguaray', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1894, 16, N'Apolinario Saravia (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1895, 16, N'Barrio El Jardín de San Martín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1896, 16, N'Barrio El Milagro (Tartagal)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1897, 16, N'Cachi (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1898, 16, N'Campo Quijano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1899, 16, N'Campo Santo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1900, 16, N'Cerrillos (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1901, 16, N'Chicoana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1902, 16, N'Colonia Santa Rosa (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1903, 16, N'Coronel Cornejo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1904, 16, N'Coronel Juan Solá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1905, 16, N'Coronel Moldes (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1906, 16, N'Cortaderas (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1907, 16, N'El Bordo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1908, 16, N'El Carril (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1909, 16, N'El Galpón (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1910, 16, N'El Quebrachal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1911, 16, N'El Tabacal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1912, 16, N'El Tala', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1913, 16, N'El Tipal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1914, 16, N'Embarcación (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1915, 16, N'General Alvarado (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1916, 16, N'General Güemes (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1917, 16, N'General Mosconi (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1918, 16, N'Hipólito Yrigoyen (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1919, 16, N'Joaquín V. González (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1920, 16, N'La Almudena', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1921, 16, N'La Merced (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1922, 16, N'Las Lajitas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1923, 16, N'Misión El Cruce', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1924, 16, N'Nuestra Señora de Talavera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1925, 16, N'Nuestra Señora de Talavera (actual)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1926, 16, N'Pichanal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1927, 16, N'Rosario de la Frontera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1928, 16, N'Rosario de Lerma', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1929, 16, N'Salvador Mazza (Salta)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1930, 16, N'San Antonio de los Cobres', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1931, 16, N'Urundel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1932, 16, N'Villa San Lorenzo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1933, 17, N'General San Juan', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1934, 18, N'	Candelaria (San Luis)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1935, 18, N'	Estancia Grande (San Luis)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1936, 18, N'	Justo Daract (localidad)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1937, 18, N'	La Punta (San Luis)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1938, 18, N'	La Ribera (Villa Mercedes)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1939, 18, N'	Anexo:Localidades de la provincia de San Luis	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1940, 18, N'	Luján (San Luis)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1941, 18, N'	Naschel	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1942, 18, N'	Quines	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1943, 18, N'	Tilisarao	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1944, 18, N'	Unión (San Luis)	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1945, 18, N'	Villa de Merlo	', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1958, 19, N'	Gobernador Gregores', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1959, 19, N'	Los Antiguos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1960, 19, N'	Río Turbio (ciudad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1961, 19, N'	Veintiocho de Noviembre', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1962, 20, N'Acebal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1963, 20, N'Alcorta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1964, 20, N'Alejandra (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1965, 20, N'Álvarez (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1966, 20, N'Alvear (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1967, 20, N'Arequito', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1968, 20, N'Armstrong (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1969, 20, N'Arroyo Seco', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1970, 20, N'Arteaga (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1971, 20, N'Avellaneda (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1972, 20, N'Barrancas (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1973, 20, N'Barrio Arroyo del Medio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1974, 20, N'Barrio Mitre (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1975, 20, N'Barrios Acapulco y Veracruz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1976, 20, N'Berabevú', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1977, 20, N'Bigand', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1978, 20, N'Bombal', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1979, 20, N'Calchaquí (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1980, 20, N'Cañada Rosquín', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1981, 20, N'Capitán Bermúdez', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1982, 20, N'Carcarañá (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1983, 20, N'Carlos Pellegrini (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1984, 20, N'Casilda', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1985, 20, N'Cayastá', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1986, 20, N'Centeno (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1987, 20, N'Ceres (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1988, 20, N'Chovet', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1989, 20, N'Coronda', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1990, 20, N'Correa (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1991, 20, N'El Trébol', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1992, 20, N'Elortondo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1993, 20, N'Empalme Villa Constitución', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1994, 20, N'Esperanza (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1995, 20, N'Espín (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1996, 20, N'Estación Clucellas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1997, 20, N'Fighiera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1998, 20, N'Firmat', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (1999, 20, N'Florencia (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2000, 20, N'Franck', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2001, 20, N'Frontera (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2002, 20, N'Fuentes (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2003, 20, N'Gálvez (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2004, 20, N'General Lagos (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2005, 20, N'Gobernador Crespo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2006, 20, N'Colonia Hansen', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2007, 20, N'Helvecia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2008, 20, N'Hersilia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2009, 20, N'Hughes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2010, 20, N'Humboldt (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2011, 20, N'Ibarlucea', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2012, 20, N'Juan de Garay (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2013, 20, N'La Gallareta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2014, 20, N'Laguna Paiva', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2015, 20, N'Las Parejas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2016, 20, N'Las Rosas (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2017, 20, N'Las Toscas (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2018, 20, N'Lehmann (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2019, 20, N'Llambi Campbell', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2020, 20, N'Los Quirquinchos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2021, 20, N'Maciel (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2022, 20, N'Malabrigo (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2023, 20, N'Margarita (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2024, 20, N'María Juana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2025, 20, N'María Susana', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2026, 20, N'María Teresa (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2027, 20, N'Máximo Paz (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2028, 20, N'Melincué', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2029, 20, N'Moisés Ville', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2030, 20, N'Monte Oscuridad', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2031, 20, N'Monte Vera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2032, 20, N'Montes de Oca (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2033, 20, N'Murphy (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2034, 20, N'Nelson (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2035, 20, N'Ogilvie', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2036, 20, N'Oliveros (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2037, 20, N'Peyrano', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2038, 20, N'Piamonte (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2039, 20, N'Pilar (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2040, 20, N'Progreso (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2041, 20, N'Pueblo Esther', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2042, 20, N'Puerto Gaboto', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2043, 20, N'Pujato', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2044, 20, N'Ricardone', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2045, 20, N'Rivadavia (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2046, 20, N'Romang', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2047, 20, N'Rufino (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2048, 20, N'San Antonio de Obligado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2049, 20, N'San Carlos Centro', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2050, 20, N'San Carlos Sud', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2051, 20, N'San Genaro (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2052, 20, N'San Genaro Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2053, 20, N'San Gregorio (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2054, 20, N'San Guillermo (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2055, 20, N'San Javier (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2056, 20, N'San Jerónimo Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2057, 20, N'San Jerónimo Sud', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2058, 20, N'San Jorge (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2059, 20, N'San José de la Esquina', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2060, 20, N'San Justo (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2061, 20, N'San Martín de las Escobas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2062, 20, N'San Vicente (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2063, 20, N'Sancti Spiritu (localidad actual)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2064, 20, N'Santa Clara de Buena Vista', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2065, 20, N'Santa Clara de Saguier', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2066, 20, N'Santa Emilia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2067, 20, N'Santa Isabel (provincia de Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2068, 20, N'Santa María Norte', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2069, 20, N'Santa Rosa de Calchines', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2070, 20, N'Santa Teresa (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2071, 20, N'Sastre y Ortiz', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2072, 20, N'Serodino', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2073, 20, N'Soutomayor (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2074, 20, N'Suardi (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2075, 20, N'Sunchales', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2076, 20, N'Tacuarendí', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2077, 20, N'Teodelina', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2078, 20, N'Timbúes (localidad)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2079, 20, N'Tortugas', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2080, 20, N'Tostado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2081, 20, N'Totoras', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2082, 20, N'Vera (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2083, 20, N'Vicente Echeverría', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2084, 20, N'Videla (Santa Fe)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2085, 20, N'Villa Cañás', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2086, 20, N'Villa Eloísa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2087, 20, N'Villa Guillermina', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2088, 20, N'Villa Minetti', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2089, 20, N'Villa Mugueta', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2090, 20, N'Villa Ocampo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2091, 20, N'Villa Trinidad', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2092, 20, N'Wheelwright', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2093, 20, N'Zavalla', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2094, 21, N'Añatuya', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2095, 21, N'Bandera (Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2096, 21, N'Beltrán (provincia de Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2097, 21, N'Campo Gallo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2098, 21, N'Clodomira', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2099, 21, N'Colonia Dora', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2100, 21, N'Colonia El Simbolar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2101, 21, N'El Zanjón', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2102, 21, N'Estación Simbolar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2103, 21, N'Ingeniero Forres', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2104, 21, N'Fernández (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2105, 21, N'Frías (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2106, 21, N'Garza (Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2108, 21, N'Loreto (Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2109, 21, N'Los Juríes', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2110, 21, N'Los Telares', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2111, 21, N'Monte Quemado', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2112, 21, N'Nueva Esperanza (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2113, 21, N'Pampa de los Guanacos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2114, 21, N'Pinto (Santiago del Estero)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2115, 21, N'Pozo Hondo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2116, 21, N'Sacháyoj', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2118, 21, N'Selva (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2119, 21, N'Sol de Julio', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2120, 21, N'Sumampa', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2121, 21, N'Suncho Corral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2122, 21, N'Tintina', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2123, 21, N'Tío Pozo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2124, 21, N'Villa Atamisqui', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2125, 21, N'Villa Ojo de Agua', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2139, 21, N'Lavalle Catamarca-Santiago del Estero', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2158, 23, N'Acheral', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2159, 23, N'Alto Verde (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2160, 23, N'Arcadia (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2161, 23, N'Barrio Aeropuerto (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2162, 23, N'Barrio Araujo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2163, 23, N'Cevil Redondo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2164, 23, N'Colombres (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2165, 23, N'Delfín Gallo (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2166, 23, N'El Chañar', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2167, 23, N'El Corte (Argentina)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2168, 23, N'El Paraíso (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2169, 23, N'El Potrerillo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2170, 23, N'Ex Ingenio Esperanza', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2171, 23, N'Ex Ingenio Luján', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2172, 23, N'Gobernador Garmendia', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2173, 23, N'Ingenio La Florida', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2174, 23, N'Ingenio La Trinidad', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2175, 23, N'Ingenio San Pablo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2176, 23, N'Ingenio Santa Bárbara', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2177, 23, N'La Florida (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2178, 23, N'La Reducción', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2179, 23, N'Lamadrid (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2180, 23, N'Los Pocitos (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2181, 23, N'Los Ralos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2182, 23, N'Los Sarmientos (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2183, 23, N'Medinas (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2184, 23, N'Nueva Baviera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2185, 23, N'Quilmes y Los Sueldos', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2186, 23, N'Ranchillos y San Miguel', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2187, 23, N'Río Seco (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2188, 23, N'San Andrés (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2189, 23, N'San José (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2190, 23, N'San Pedro de Colalao', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2191, 23, N'San Roque (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2192, 23, N'Santa Ana (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2193, 23, N'Santa Lucía (Tucumán)', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2194, 23, N'Santa Rosa y Los Rojo', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2195, 23, N'Villa Fiad', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2196, 23, N'Villa Nougués', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2197, 23, N'Villa Quinteros', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2198, 23, N'Villa Recaste', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2199, 23, N'Villa Tercera', 1)
+GO
+INSERT [dbo].[Localidad] ([id_localidad], [id_provincia], [localidad], [activo]) VALUES (2200, 23, N'Yerba Buena (Simoca)', 1)
+GO
+SET IDENTITY_INSERT [dbo].[Localidad] OFF
+GO

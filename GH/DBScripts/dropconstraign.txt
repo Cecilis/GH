@@ -1,0 +1,4 @@
+﻿ALTER TABLE [dbo].[ServicioItems]  DROP  CONSTRAINT [FK_dbo.ServicioItems_dbo.TipoServicio_id_tipo_servicio]
+ALTER TABLE [dbo].[ServicioItems]  DROP  CONSTRAINT [FK_dbo.ServicioItems_dbo.UnidadMedida_id_unidad_medida]
+ALTER TABLE [dbo].[TipoServicio] DROP CONSTRAINT [FK_dbo.TipoServicio_dbo.Servicios_id_servicio] 
+ejecutar antes de fixingModel
